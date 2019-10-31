@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Pacifica_Condensed_Regular;
+    src: url(Pacifica_Condensed_Regular.ttf) format('truetype');
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+.top_color{
+    background-color: rgb(43, 43, 43);
+    height: 200px;
+}
+.main_menu{
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    z-index:1;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+}
+.inner_main_menu ul {
+    position: absolute;
+    left:10%;
+    width:80%;
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+}
+.inner_main_menu ul li {
+    font-family:din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    font-size:35px;
+    padding: 6px;
+}
+.inner_main_menu ul li:nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+.inner_main_menu ul li:nth-child(2) {
+    position: absolute;
+    left: 15%
+}
+.inner_main_menu ul li:nth-child(3) {
+    position: absolute;
+    right: 20%
+}
+.inner_main_menu ul li:nth-child(4) {
+    float: right;
+}
+.inner_main_menu li.active{
+    background-color: darkorange;
+}
+.inner_main_menu li.active a{
+    color: #D5D5D5;
+}
+.inner_main_menu li:hover{
+    -moz-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+    -webkit-transition: background-color .4s ease-in;
+    transition: background-color .4s ease-in;
+    background-color: darkorange;
+}
+.inner_main_menu li, .inner_main_menu a:hover{
+    color: #D5D5D5;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: scale(0.11, 0.11);
+    margin-left: -125px;
+    top: -95px;
+    content: "";
+    z-index: 999;
+}
+.text{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    word-break: break-word;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
+    width: 400px;
+    cursor: pointer;
+    z-index: 999;
+}
+.menu_container{
+    display: none;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    transition: 0.4s;
+    right: 1%;
+}
+.bar1{
+    margin-top: 30px;
+}
+.bar2{
+    margin-top: 50px;
+}
+.bar3{
+    margin-top: 70px;
+}
+.snippet_container{
+    background-color: rgba(255, 225, 225, 0.5);
+    position: relative;
+    top: 5%;
+    width: 80%;
+    height: auto;
+    padding-bottom: 0.5%;
+    left:10%;
+}
+h1 {
+    width:80%;
+    font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
+    font-size: 35px;
+    padding: 6px;
+}
+h2 {
+    width:50%;
+    font-family:din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    padding: 6px;
+}
+.button{
+    color: white;
+    background-color: darkorange;
+    margin: 20px;
+    width: 20%;
+    height: 40px;
+    padding-top: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    cursor: pointer;
+}
+.button a:hover{
+    color: #D5D5D5;
+}
+.left {
+    position: relative;
+    float: left;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    opacity: 0.78;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("img/191023_Background.png");
+}
+.footer{
+    clear: both;
+    width: 100%;
+    background-color: rgba(255,136,0,0.8);
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+.footer ul{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    list-style: none;
+    font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
+    font-size: 35px;
+    padding: 6px;
+}
+.footer ul li:nth-child(1){
+    float: left;
+}
+.footer ul li:nth-child(2){
+    display: inline-block;
+}
+.footer ul li:nth-child(3){
+    float: right;
+}
+.instagram{
+    position: relative;
+    margin: 40px;
+    top: 40px;
+}
