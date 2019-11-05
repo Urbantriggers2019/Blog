@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="Main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="img/191022_Logo.png">
@@ -11,23 +11,17 @@
     <title>Urbantriggers 2019</title>
 </head>
 <body>
-    <div class="main_menu">
-        <div class="text"><a href="home.html">URBAN TRIGGERS FAUSKE</a></div>
-        <div class="logo"><a href="home.html"><img src="img/191022_Logo.png"></a></div>
-        <div class="inner_main_menu">
-            <ul>
-                <li class="active"><a href="News.html">News</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="project.html">Project</a></li>
-                <li><a href="references.html">References</a></li>
-            </ul>
-        </div>
-        <div class="menu_container">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </div>
+    <div id="nav-placeholder"></div>
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".inner_main_menu ul li:contains('News')").addClass('active');
+        });
+    </script>
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">

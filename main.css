@@ -2,6 +2,7 @@
     font-family: Pacifica_Condensed_Regular;
     src: url(Pacifica_Condensed_Regular.ttf) format('truetype');
 }
+@font-face {font-family: "DINNextW01-Light"; src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot"); src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.svg#DINNextW01-Light") format("svg"); }
 a {
     text-decoration:none;
     color:white;
@@ -34,25 +35,48 @@ body{
     margin-top: 20px;
     list-style: none;
 }
-.inner_main_menu ul li {
-    font-family:din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+.inner_main_menu .news, .research, .project, .references {
+    font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
     font-size:35px;
     padding: 6px;
+    display: inline-block;
 }
-.inner_main_menu ul li:nth-child(1) {
+ul.submenu {
+    background-color: rgb(43, 43, 43);
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    padding:0;
+    width: 250px;
+    margin-top:6px;
+    text-align: left;
+}
+.submenu li {
+    padding: 0;
+}
+.submenu a{
+    font-size: 24px;
+    padding: 6px;
+    line-height: 45px;
+}
+.submenu.open {
+    visibility: visible;
+}
+.news {
     position: absolute;
     left: 0;
 }
-.inner_main_menu ul li:nth-child(2) {
+.research {
     position: absolute;
     left: 15%
 }
-.inner_main_menu ul li:nth-child(3) {
+.project {
     position: absolute;
     right: 20%
 }
-.inner_main_menu ul li:nth-child(4) {
-    float: right;
+.references {
+    position: absolute;
+    right: 0;
 }
 .inner_main_menu li.active{
     background-color: darkorange;
@@ -132,7 +156,7 @@ h1 {
 }
 h2 {
     width:50%;
-    font-family:din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
     padding: 6px;
 }
 .button{
