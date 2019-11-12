@@ -17,41 +17,39 @@ $(document).ready(function () {
             $(".menu_container").css("display", "inline");
         }
     }
+
     $('.logo').hide();
+
     var timer;
-    $(".project").on("mouseover", function() {
+
+    $(".inner_main_menu ul li").on("mouseover", function() {
         clearTimeout(timer);
-        $(".project > .submenu").addClass("open");
-    }).on("mouseleave", function() {
+        $(this).find(".submenu").addClass("open");
+    })
+    $(".inner_main_menu ul").on("mouseleave", function() {
         timer = setTimeout(
-            $(".project > .submenu").removeClass("open")
-            , 1000);
+            $(this).find(".submenu, .subsubmenu").removeClass("open")
+            , 500);
     });
-    $(".research").on("mouseover", function() {
+
+    $(".submenu li").on("mouseover", function() {
         clearTimeout(timer);
-        $(".research > .submenu").addClass("open");
-    }).on("mouseleave", function() {
-        timer = setTimeout(
-            $(".research > .submenu").removeClass("open")
-            , 1000);
-    });
-    $(".references").on("mouseover", function() {
-        clearTimeout(timer);
-        $(".references > .submenu").addClass("open");
-    }).on("mouseleave", function() {
-        timer = setTimeout(
-            $(".references > .submenu").removeClass("open")
-            , 1000);
+        $(this).find(".subsubmenu").addClass("open");
     });
     resizeSmall();
     resizeBig();
+
     var clicked = false;
     $(window).scroll(function () {
-        $(".main_menu").css("margin-top", Math.max(50 - 0.4 * window.scrollY, 0) + "px");
-        $("ul.main_menu").css("margin-top", Math.max( 20 - 0.02 * window.scrollY, 0) + "px");
-        $(".inner_main_menu .news, .research, .project, .references").css("font-size", Math.max(35 - 0.02 * window.scrollY, 0) + "px");
-        $(".research").css("left", Math.max(15 + 0.026 * window.scrollY, 0) + "%");
-        $(".project").css("right", Math.max(20 + 0.026 * window.scrollY, 0) + "%");
+        $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
+        $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
+        $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
+        $(".inner_main_menu > ul").css("margin-top", Math.max(16 - 0.02 * window.scrollY, 0) + "px");
+        $(".inner_main_menu .fauske, .about_us, .overview, .connections, .projects, .vision").css("font-size", Math.max(35 - 0.037 * window.scrollY, 0) + "px");
+        $(".about_us").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
+        $(".overview").css("left", Math.max(25 + 0.026 * window.scrollY, 0) + "%");
+        $(".connections").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
+        $(".projects").css("right", Math.max(10 + 0.013 * window.scrollY, 0) + "%");
         $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.06 * window.scrollY, 0) + "px");
         $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.01 * window.scrollY, 0) + "px");
         if (clicked == false){

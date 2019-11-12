@@ -19,17 +19,20 @@
     </script>
     <script>
         $(document).ready(function () {
-            $(".inner_main_menu ul li:contains('Overview')").addClass('active');
+            $(".inner_main_menu > ul > li:contains('Fauske')").addClass('active');
         });
     </script>
     <div class="top_color"></div>
-    <div class="left"></div>
-    <div class="footer">
-        <ul>
-            <li>Our task</li>
-            <li>Faculty members</li>
-            <li>About us</li>
-        </ul>
+    <div class="left">
+        <div class="snippet_container">
+            <h1>Fauske</h1>
+        </div>
     </div>
+    <div id="footer"></div>
+    <script>
+        $.get("footer.html", function(data){
+            $("#footer").replaceWith(data);
+        });
+    </script>
 </body>
 </html>

@@ -19,25 +19,20 @@
     </script>
     <script>
         $(document).ready(function () {
-            $(".inner_main_menu ul li:contains('News')").addClass('active');
+            $(".inner_main_menu > ul > li:contains('Overview')").addClass('active');
         });
     </script>
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <div class="instagram">
-                <div id="pixlee_container"></div>
-                <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'hSj9fiZ9SoGoe1Y03DgJ'});Pixlee.addSimpleWidget({widgetId:'22390'});};</script>
-                <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
-            </div>
+            <h1>Overview</h1>
         </div>
     </div>
-    <div class="footer">
-        <ul>
-            <li>Our task</li>
-            <li>Faculty members</li>
-            <li>About us</li>
-        </ul>
-    </div>
+    <div id="footer"></div>
+    <script>
+        $.get("footer.html", function(data){
+            $("#footer").replaceWith(data);
+        });
+    </script>
 </body>
 </html>

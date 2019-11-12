@@ -12,6 +12,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -21,9 +22,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\natural_resources" />
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
     </key>
@@ -56,6 +62,8 @@
       <workItem from="1572453230742" duration="32279000" />
       <workItem from="1572518851009" duration="5050000" />
       <workItem from="1572854644176" duration="24114000" />
+      <workItem from="1572942136537" duration="79354000" />
+      <workItem from="1573459267107" duration="40706000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,12 @@
 @font-face {
     font-family: Pacifica_Condensed_Regular;
-    src: url(Pacifica_Condensed_Regular.ttf) format('truetype');
+    src: url(fonts/Pacifica_Condensed_Regular.ttf) format('truetype');
 }
 @font-face {font-family: "DINNextW01-Light"; src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot"); src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.svg#DINNextW01-Light") format("svg"); }
 a {
     text-decoration:none;
     color:white;
+    display: block;
 }
 html, body{
     height: 100%;
@@ -14,16 +15,12 @@ body{
     background-color: white;
     margin: 0;
 }
-.top_color{
-    background-color: rgb(43, 43, 43);
-    height: 200px;
-}
 .main_menu{
     background-color: rgb(43, 43, 43);
     position: fixed;
     z-index:1;
     text-align: center;
-    margin-top: 50px;
+    padding-top:100px;
     width: 100%;
     height: 70px;
 }
@@ -32,59 +29,99 @@ body{
     left:10%;
     width:80%;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 16px;
     list-style: none;
 }
-.inner_main_menu .news, .research, .project, .references {
+.inner_main_menu .fauske, .about_us, .overview, .connections, .projects, .vision {
     font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
     font-size:35px;
     padding: 6px;
     display: inline-block;
+    position: absolute;
 }
-ul.submenu {
-    background-color: rgb(43, 43, 43);
+ul.submenu, ul.subsubmenu{
+    z-index: 2;
+    background-color: gray;
     visibility: hidden;
     position: absolute;
     left: 0;
-    padding:0;
-    width: 250px;
+    width: auto;
+    white-space: nowrap;
     margin-top:6px;
     text-align: left;
 }
-.submenu li {
-    padding: 0;
+ul.subsubmenu{
+    width: 400px;
+    margin-top: 0;
+    top: 0;
+    column-count:2;
+    column-gap:0;
+    overflow: hidden;
+}
+.fauske, .about_us, .overview ul.subsubmenu{
+    right: auto;
+    left: 100%;
+}
+.connections, .projects, .vision ul.subsubmenu{
+    left: auto;
+    right: 100%;
+}
+.subsubmenu li ul{
+    margin-top:-12px;
+    width: 200px;
+    left: 0;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+ul.subsubmenu > li > a{
+    font-size: 18;
+    line-height: 40px;
+    display: block;
+}
+.subsubmenu li ul li a{
+    font-size: 18px;
+    line-height: 25.7px;
+    padding-bottom: 0;
+    display: block;
 }
 .submenu a{
     font-size: 24px;
-    padding: 6px;
-    line-height: 45px;
+    line-height: 34.2px;
+    padding:6px;
+    float: left;
+    clear: both;
+    white-space: nowrap;
+    display: block;
 }
-.submenu.open {
+.submenu.open, .subsubmenu.open {
     visibility: visible;
 }
-.news {
-    position: absolute;
+.fauske {
     left: 0;
 }
-.research {
-    position: absolute;
-    left: 15%
+.about_us {
+    left: 11%
 }
-.project {
-    position: absolute;
-    right: 20%
+.overview {
+    left: 25%;
 }
-.references {
-    position: absolute;
+.connections {
+    right: 23%;
+}
+.projects {
+    right: 10%
+}
+.vision {
     right: 0;
 }
-.inner_main_menu li.active{
+.active{
     background-color: darkorange;
 }
-.inner_main_menu li.active a{
+.active > a{
     color: #D5D5D5;
 }
-.inner_main_menu li:hover{
+.inner_main_menu > li:hover{
     -moz-transition: background-color .4s ease-in;
     -o-transition: background-color .4s ease-in;
     -webkit-transition: background-color .4s ease-in;
@@ -99,13 +136,14 @@ ul.submenu {
     left: 50%;
     transform: scale(0.11, 0.11);
     margin-left: -125px;
-    top: -95px;
+    top: -97px;
     content: "";
     z-index: 999;
 }
 .text{
     position: absolute;
     left: 50%;
+    margin-top:-80px;
     margin-left: -200px;
     word-break: break-word;
     color: white;
@@ -142,31 +180,35 @@ ul.submenu {
 .snippet_container{
     background-color: rgba(255, 225, 225, 0.5);
     position: relative;
-    top: 5%;
+    top: 100px;
     width: 80%;
-    height: auto;
     padding-bottom: 0.5%;
     left:10%;
+    column-count: 2;
+}
+.image{
+    opacity: 100%;
+    width: 98%;
 }
 h1 {
     width:80%;
+    column-span: all;
     font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
     font-size: 35px;
     padding: 6px;
 }
 h2 {
-    width:50%;
     font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
     padding: 6px;
 }
 .button{
+    float: left;
     color: white;
     background-color: darkorange;
     margin: 20px;
     width: 20%;
     height: 40px;
     padding-top: 20px;
-    vertical-align: bottom;
     text-align: center;
     cursor: pointer;
 }
@@ -179,10 +221,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 99%;
-    opacity: 0.78;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url("img/191023_Background.png");
+    background: lightgray;
 }
 .footer{
     clear: both;
@@ -210,8 +249,15 @@ h2 {
 .footer ul li:nth-child(3){
     float: right;
 }
+.top_color{
+    height: 170px;
+}
 .instagram{
     position: relative;
     margin: 40px;
     top: 40px;
+}
+.map{
+    display: block;
+    background: white;
 }
