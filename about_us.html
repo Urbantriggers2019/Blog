@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="img/191022_Logo.png">
@@ -37,7 +37,7 @@
     </div>
     <div id="footer"></div>
     <script>
-        $.get("footer.html", function(data){
+        $.get("/Blog/footer.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>

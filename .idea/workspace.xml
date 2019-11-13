@@ -26,11 +26,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\natural_resources" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\Blog" />
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\overview" />
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\natural_resources" />
       <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
     </key>
   </component>
@@ -64,6 +66,7 @@
       <workItem from="1572854644176" duration="24114000" />
       <workItem from="1572942136537" duration="79354000" />
       <workItem from="1573459267107" duration="40706000" />
+      <workItem from="1573602006200" duration="3892000" />
     </task>
     <servers />
   </component>

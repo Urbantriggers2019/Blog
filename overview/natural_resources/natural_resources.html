@@ -3,34 +3,35 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript" src="/Blog/main.js"></script>
+    <script type="text/javascript" src="/Blog/overview/natural_resources/natural_resources.js"></script>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="img/191022_Logo.png">
+    <link rel="stylesheet" href="/Blog/main.css">
+    <link rel="icon" href="/Blog/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
 </head>
 <body>
     <div id="nav-placeholder"></div>
     <script>
-        $.get("navbar.html", function(data){
+        $.get("/Blog/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-    </script>
-    <script>
         $(document).ready(function () {
-            $(".inner_main_menu > ul > li:contains('Overview')").addClass('active');
+            $(".inner_main_menu ul li:contains('Overview')").addClass('active');
         });
     </script>
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <h1>Overview</h1>
+            <h1>Natural Resources</h1>
+            <h2>Click on Water, Land, Forest or Mountain to find out more about that resource</h2>
+            <object id="land" class="map" type="image/svg+xml" data="/Blog/img/natural_resources.svg"></object>
         </div>
     </div>
     <div id="footer"></div>
     <script>
-        $.get("footer.html", function(data){
+        $.get("/Blog/footer.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>

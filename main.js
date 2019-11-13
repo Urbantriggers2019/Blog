@@ -22,11 +22,10 @@ $(document).ready(function () {
 
     var timer;
 
-    $(".inner_main_menu ul li").on("mouseover", function() {
+    $(".inner_main_menu > ul > li").on("mouseover", function() {
         clearTimeout(timer);
         $(this).find(".submenu").addClass("open");
-    })
-    $(".inner_main_menu ul").on("mouseleave", function() {
+    }).on("mouseleave", function() {
         timer = setTimeout(
             $(this).find(".submenu, .subsubmenu").removeClass("open")
             , 500);
@@ -34,6 +33,7 @@ $(document).ready(function () {
 
     $(".submenu li").on("mouseover", function() {
         clearTimeout(timer);
+        $(".submenu li").find(".subsubmenu").removeClass("open");
         $(this).find(".subsubmenu").addClass("open");
     });
     resizeSmall();
