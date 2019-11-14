@@ -41,34 +41,37 @@ $(document).ready(function () {
 
     var clicked = false;
     $(window).scroll(function () {
-        $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
-        $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
-        $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
-        $(".inner_main_menu > ul").css("margin-top", Math.max(16 - 0.02 * window.scrollY, 0) + "px");
-        $(".inner_main_menu .fauske, .resources, .forces, .projects, .vision, .about_us").css("font-size", Math.max(35 - 0.037 * window.scrollY, 0) + "px");
-        $(".resources").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
-        $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");
-        $(".projects").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
-        $(".vision").css("right", Math.max(13 + 0.013 * window.scrollY, 0) + "%");
-        $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.06 * window.scrollY, 0) + "px");
-        $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.01 * window.scrollY, 0) + "px");
-        if (clicked == false){
-            $(".bar1").css("margin-top", Math.max(30 - 0.04 * window.scrollY, 0) + "px");
-            $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-            $(".bar3").css("margin-top", Math.max(70 - 0.09 * window.scrollY, 0) + "px");
-        } else {
-            $(".bar1").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-            $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-            $(".bar3").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-        }
-        if ($(this).scrollTop() > 0) {
-            $('.text').fadeOut(150);
-            $('.logo').fadeIn(150);
-            resizeSmall();
-        } else {
-            $('.text').fadeIn(150);
-            $('.logo').fadeOut(150);
-            resizeBig();
+        if(scrollY < 240){
+            console.log(scrollY);
+            $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
+            $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
+            $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
+            $(".inner_main_menu > ul").css("margin-top", Math.max(16 - 0.02 * window.scrollY, 0) + "px");
+            $(".inner_main_menu .fauske, .resources, .forces, .projects, .vision, .about_us").css("font-size", Math.max(35 - 0.037 * window.scrollY, 0) + "px");
+            $(".resources").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
+            $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");
+            $(".projects").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
+            $(".vision").css("right", Math.max(13 + 0.013 * window.scrollY, 0) + "%");
+            $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.06 * window.scrollY, 0) + "px");
+            $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.01 * window.scrollY, 0) + "px");
+            if (clicked == false){
+                $(".bar1").css("margin-top", Math.max(30 - 0.04 * window.scrollY, 0) + "px");
+                $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
+                $(".bar3").css("margin-top", Math.max(70 - 0.09 * window.scrollY, 0) + "px");
+            } else {
+                $(".bar1").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
+                $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
+                $(".bar3").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
+            }
+            if ($(this).scrollTop() > 0) {
+                $('.text').fadeOut(150);
+                $('.logo').fadeIn(150);
+                resizeSmall();
+            } else {
+                $('.text').fadeIn(150);
+                $('.logo').fadeOut(150);
+                resizeBig();
+            }
         }
     });
     $(window).resize(function () {
@@ -102,7 +105,6 @@ $(document).ready(function () {
     window.addEventListener("load", function() {
         var svgObject = document.getElementById('land').contentDocument;
         var svg = svgObject.getElementsByTagName('text');
-        console.log(svg);
         var i;
         for (i = 0; i < svg.length; i++) {
             svg[i].setAttributeNS(null, "font-family", "DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif");

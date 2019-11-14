@@ -6,7 +6,7 @@
     <script type="text/javascript" src="/Blog/main/main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
-    <link rel="stylesheet" href="/Blog/resources/forest/forest_navbar.css">
+    <link rel="stylesheet" href="/Blog/main/subnavbar.css">
     <link rel="icon" href="/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
@@ -28,10 +28,10 @@
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <object id="land" class="map" type="image/svg+xml" data="img/Forestry_1-04.svg"></object>
+        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Forestry_1-04.svg"></object>
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
     $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
