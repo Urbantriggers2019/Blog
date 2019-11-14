@@ -22,18 +22,18 @@
     });
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-        $(".subnavbar > ul > li:contains('Pulp')").addClass('active');
+        $(".subnavbar > ul > li:contains('Fire Wood')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h1>Pulp</h1>
+        <object id="land" class="map" type="image/svg+xml" data="img/Forestry_1-03.svg"></object>
     </div>
 </div>
 <div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>

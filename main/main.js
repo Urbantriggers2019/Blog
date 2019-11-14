@@ -99,4 +99,13 @@ $(document).ready(function () {
             clicked = false;
         }
     });
+    window.addEventListener("load", function() {
+        var svgObject = document.getElementById('land').contentDocument;
+        var svg = svgObject.getElementsByTagName('text');
+        console.log(svg);
+        var i;
+        for (i = 0; i < svg.length; i++) {
+            svg[i].setAttributeNS(null, "font-family", "DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif");
+        }
+    });
 });
