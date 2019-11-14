@@ -17,23 +17,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Sc5uaGEKazoHZ88WXHpS07jHJR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blog/forces" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\Blog" />
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\overview" />
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\natural_resources" />
-      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\resources\img" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\resources" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\main" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\Home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\forces" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\resources\forest" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\resources\water" />
+      <recent name="C:\Users\sjaak\OneDrive - NTNU\190831_UrbanTriggers\UrbanTriggersShared\Blog\Blog\Blog\resources\mountain" />
+      <recent name="C:\Users\sjaak\Dropbox\_Projects\19\190821_Fauske\2D\Blog\overview\natural_resources\land" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,11 +76,23 @@
       <workItem from="1572854644176" duration="24114000" />
       <workItem from="1572942136537" duration="79354000" />
       <workItem from="1573459267107" duration="40706000" />
-      <workItem from="1573602006200" duration="4883000" />
+      <workItem from="1573602006200" duration="8518000" />
+      <workItem from="1573645820647" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

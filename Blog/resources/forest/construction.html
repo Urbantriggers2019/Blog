@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Blog/main/main.css">
+    <link rel="stylesheet" href="/Blog/resources/forest/forest_navbar.css">
+    <link rel="icon" href="/main/img/191022_Logo.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>Urbantriggers 2019</title>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/resources/forest/forest_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
+        $(".subnavbar > ul > li:contains('Construction')").addClass('active');
+    });
+</script>
+<div class="top_color"></div>
+<div class="left">
+    <div class="snippet_container">
+        <h1>construction</h1>
+    </div>
+</div>
+<div id="footer"></div>
+<script>
+    $.get("/Blog/main/footer.html", function(data){
+        $("#footer").replaceWith(data);
+    });
+</script>
+</body>
+</html>

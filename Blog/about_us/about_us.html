@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Blog/main/main.css">
+    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>Urbantriggers 2019</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+        $.get("/Blog/main/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".inner_main_menu > ul > li:contains('About Us')").addClass('active');
+        });
+    </script>
+    <div class="top_color"></div>
+    <div class="left">
+        <div class="snippet_container">
+            <div class="snippet_container">
+                <h1>About Us</h1>
+            </div>
+            <div class="instagram">
+                <div id="pixlee_container"></div>
+                <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'hSj9fiZ9SoGoe1Y03DgJ'});Pixlee.addSimpleWidget({widgetId:'22390'});};</script>
+                <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script>
+        $.get("/Blog/main/footer.html", function(data){
+            $("#footer").replaceWith(data);
+        });
+    </script>
+</body>
+</html>
