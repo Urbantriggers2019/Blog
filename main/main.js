@@ -9,7 +9,7 @@ $(document).ready(function () {
         }
     }
     function resizeBig() {
-        if ($(this).width() > 1120) {
+        if ($(this).width() > 1264) {
             $(".inner_main_menu").css("display", "inline");
             $(".menu_container").css("display", "none");
         } else {
@@ -42,7 +42,6 @@ $(document).ready(function () {
     var clicked = false;
     $(window).scroll(function () {
         if(scrollY < 240){
-            console.log(scrollY);
             $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
             $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
             $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
@@ -51,7 +50,7 @@ $(document).ready(function () {
             $(".resources").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
             $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");
             $(".projects").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
-            $(".vision").css("right", Math.max(13 + 0.013 * window.scrollY, 0) + "%");
+            $(".vision").css("right", Math.max(14 + 0.013 * window.scrollY, 0) + "%");
             $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.06 * window.scrollY, 0) + "px");
             $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.01 * window.scrollY, 0) + "px");
             if (clicked == false){
