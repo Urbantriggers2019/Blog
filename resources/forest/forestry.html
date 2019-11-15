@@ -17,27 +17,23 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/water/water_navbar.html", function(data){
+    $.get("/Blog/resources/forest/forest_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:contains('Land')").addClass('active');
+        $(".subnavbar > ul > li:contains('Forestry')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h1>Water</h1>
+        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Forestry_1-04.svg"></object>
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>

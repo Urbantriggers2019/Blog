@@ -2,9 +2,14 @@
     font-family: Pacifica_Condensed_Regular;
     src: url(/Blog/main/fonts/Pacifica_Condensed_Regular.ttf) format('truetype');
 }
-@font-face {
-    font-family: "DINNextW01-Light"; src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot"); src: url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ae5e19516bc6428f1327ff3311b2617.svg#DINNextW01-Light") format("svg"); }
-a {
+@font-face {font-family: "Neue Haas Unica W06 Thin It";
+    src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.eot"); /* IE9*/
+    src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff2") format("woff2"), /* chrome、firefox */
+    url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff") format("woff"), /* chrome、firefox */
+    url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.svg#Neue Haas Unica W06 Thin It") format("svg"); /* iOS 4.1- */
+}a {
     text-decoration:none;
     color:white;
     display: block;
@@ -34,7 +39,7 @@ body{
     list-style: none;
 }
 .inner_main_menu .fauske, .resources, .forces, .projects, .vision, .about_us {
-    font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
+    font-family:"Neue-Haas Unica W06 Thin It", Helvetica, sans-serif;
     font-size:35px;
     padding: 6px;
     display: inline-block;
@@ -203,6 +208,13 @@ ul.subsubmenu > li > a{
     padding-bottom: 0.5%;
     left:10%;
 }
+.source a{
+    color: darkorange;
+}
+.snippet_container img{
+    left: 0;
+    width: 100%;
+}
 .image{
     opacity: 100%;
     width: 98%;
@@ -210,13 +222,19 @@ ul.subsubmenu > li > a{
 h1 {
     width:80%;
     column-span: all;
-    font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
+    font-family:"Neue-Haas Unica W06 Thin It", Helvetica, sans-serif;
     font-size: 35px;
     padding: 6px;
 }
 h2 {
-    font-family:DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif;
+    font-family:"Neue-Haas Unica W06 Thin It", Helvetica, sans-serif;
     padding: 6px;
+}
+h3 {
+    font-family:"Neue-Haas Unica W06 Thin It", Helvetica, sans-serif;
+    padding: 6px;
+    font-size: 18px;
+    line-height: 26px;
 }
 .button{
     float: left;
@@ -265,7 +283,6 @@ h2 {
     left: 10%;
     width: 80%;
     list-style: none;
-    font-family: Pacifica_Condensed_Regular, avenir-lt-w01_35-light1475496, sans-serif;
     font-size: 35px;
     padding: 6px;
 }
