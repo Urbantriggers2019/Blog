@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
-    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
+    <link rel="icon" href="/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
 </head>
@@ -17,27 +17,28 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/forces/energy/energy_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
+        $(".inner_main_menu > ul > li:contains('Forces')").addClass('active');
+        $(".subnavbar > ul > li:contains('Usage')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h1>Water</h1>
+        <h2>This page contains:</h2>
+        <ul>
+            <li><a href="/Blog/forces/energy/usage/nordic_power_balance.html">Nordic Power Balance</a></li>
+            <li><a href="/Blog/forces/energy/usage/policy.html">Policy</a></li>
+            <li><a href="/Blog/forces/energy/usage/power_grid.html">Power Grid</a></li>
+        </ul>
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>

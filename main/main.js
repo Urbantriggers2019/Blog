@@ -42,10 +42,12 @@ $(document).ready(function () {
     var clicked = false;
     $(window).scroll(function () {
         if(scrollY < 240){
+            console.log(window.scrollY)
             $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
             $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
             $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
             $(".inner_main_menu > ul").css("margin-top", Math.max(16 - 0.02 * window.scrollY, 0) + "px");
+            $(".inner_main_menu > ul > li").css("margin-top", Math.min(0 - 0.03 * window.scrollY, 0) + "px");
             $(".inner_main_menu .fauske, .resources, .forces, .projects, .vision, .about_us").css("font-size", Math.max(35 - 0.037 * window.scrollY, 0) + "px");
             $(".resources").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
             $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");

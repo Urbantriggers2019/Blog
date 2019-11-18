@@ -17,27 +17,28 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/forces/energy/production/production_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
+        $(".inner_main_menu > ul > li:contains('Forces')").addClass('active');
+        $(".subnavbar > ul > li:contains('Electricity')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
-    <div class="snippet_container">
-        <h1>Water</h1>
+    <div class="snippet_container" style="column-width: 300px">
+        <h2 style="column-span: all">Electricity in SKS Fauske</h2>
+        <img style="width: 13vw; top:42px" src="/Blog/forces/energy/img/Screenshot 2019-11-05 at 11.58.54 copy.png">
+        <h3>Plants Number : 20</h3>
+        <h3>Units number : 29</h3>
+        <h3>Average production per year : 2050.9 GWh</h3>
+        <img style="width: 50vw;" src="/Blog/forces/energy/img/sks.png ">
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>

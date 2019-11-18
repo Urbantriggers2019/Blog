@@ -17,27 +17,25 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/forces/energy/production/production_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
+        $(".inner_main_menu > ul > li:contains('Forces')").addClass('active');
+        $(".subnavbar > ul > li:contains('Thermal Power')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
-    <div class="snippet_container">
-        <h1>Water</h1>
+    <div class="snippet_container" style="column-count: 2;">
+        <h2>Thermal Power</h2>
+        <h3 style="position: relative; left: 20px; width: 350px">The reserve power plants have a total capacity of 300 MW. Actual production in recent years has been about 3.5 TWh per year. This corresponds to approximately 2.5% of Norwegian power generation. Most of this comes from gas power generation at Melkøya and Mongstad. Thermal power plants in Norway are based on natural gas, gas or heat from industrial processes and waste incineration.</h3>
+        <img src="/Blog/forces/energy/img/fuel.png">
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>

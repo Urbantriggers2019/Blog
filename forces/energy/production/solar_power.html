@@ -17,32 +17,20 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/forces/energy/production/production_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:contains('Forest')").addClass('active');
+        $(".inner_main_menu > ul > li:contains('Forces')").addClass('active');
+        $(".subnavbar > ul > li:contains('Solar Power')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
-    <div class="snippet_container">
-        <h1>Forest</h1>
-        <h2>This topic contains:</h2>
-        <ul>
-            <li><a href="/Blog/resources/forest/forestry.html">Forestry</a></li>
-            <li><a href="/Blog/resources/forest/timber.html">Timber</a></li>
-            <li><a href="/Blog/resources/forest/fire_wood.html">Fire Wood</a></li>
-            <li><a href="/Blog/resources/forest/construction.html">Construction</a></li>
-            <li><a href="/Blog/resources/forest/packaging.html">Packaging</a></li>
-            <li><a href="/Blog/resources/forest/pulp.html">Pulp</a></li>
-            <li><a href="/Blog/resources/forest/extra.html">Extra</a></li>
-        </ul>
+    <div class="snippet_container" style="column-count: 2;">
+        <h2>Solar Power</h2>
+        <h3 style="position: relative; left: 20px; width: 350px">Solar power is the fastest growing power generation technology in the world. In 2018, approximately 100 GW of new capacity was installed globally. This increase took the total level up to 500 GW. In Norway, relatively little solar power is installed, but it is growing rapidly. At the end of 2018, approximately 68 MWp were installed in Norway, with 23 MWp installed during 2018 [1]. As a result, total power capacity increased by more than 50 percent from 2017 to 2018. Statistics from Enova show that during the first 9 months of 2019, they have supported twice as many solar projects in private customers as at the same time in 2018, and almost 20 times as many as at the same time in 2016</h3>
+        <img src="/Blog/forces/energy/img/solar 2.png">
     </div>
     <div id="footer"></div>
 </div>

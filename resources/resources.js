@@ -32,7 +32,7 @@ window.addEventListener("load", function() {
             svg.querySelectorAll('.st2')[i].style.setProperty("opacity", "50%");
         }
     }).on("click", function() {
-        window.open("/Blog/resources/forest.html")
+        window.open("/Blog/resources/forest.html","_self")
     });
     $(svg.getElementsByClassName("st3")).on("mouseover", function() {
         for (i = 0; i < svg.querySelectorAll('.st3').length; i++) {
@@ -74,7 +74,7 @@ window.addEventListener("load", function() {
             svg.querySelectorAll('.st6')[i].style.setProperty("opacity", "50%");
         }
     }).on("click", function() {
-        window.open("/Blog/resources/water.html")
+        window.open("/Blog/resources/water.html","_self")
     });
     $(svg.getElementsByClassName("st7")).on("mouseover", function() {
         for (i = 0; i < svg.querySelectorAll('.st7').length; i++) {
@@ -86,7 +86,7 @@ window.addEventListener("load", function() {
             svg.querySelectorAll('.st7')[i].style.setProperty("opacity", "50%");
         }
     }).on("click", function() {
-        window.open("/Blog/resources/mountain.html")
+        window.open("/Blog/resources/mountain.html","_self")
     });
     $(svg.getElementsByClassName("st8")).on("mouseover", function() {
         for (i = 0; i < svg.querySelectorAll('.st8').length; i++) {
@@ -98,7 +98,7 @@ window.addEventListener("load", function() {
             svg.querySelectorAll('.st8')[i].style.setProperty("opacity", "50%");
         }
     }).on("click", function() {
-        window.open("/Blog/resources/land.html")
+        window.open("/Blog/resources/land.html","_self")
     });
     var b;
     for (b = 0; b < 9; b++) {

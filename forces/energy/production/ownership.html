@@ -17,27 +17,26 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/forces/energy/production/production_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
+        $(".inner_main_menu > ul > li:contains('Forces')").addClass('active');
+        $(".subnavbar > ul > li:contains('Ownership')").addClass('active');
     });
 </script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h1>Water</h1>
+        <img src="/Blog/forces/energy/img/Untitled 2-1.png">
     </div>
+    <div class="snippet_container">
+        <img src="/Blog/forces/energy/img/Untitled 3-1.png">
+    </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>
