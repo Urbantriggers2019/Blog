@@ -100,8 +100,20 @@ window.addEventListener("load", function() {
     }).on("click", function() {
         window.open("/Blog/resources/land.html","_self")
     });
+    $(svg.getElementsByClassName("st9")).on("mouseover", function() {
+        for (i = 0; i < svg.querySelectorAll('.st9').length; i++) {
+            svg.querySelectorAll('.st9')[i].style.setProperty("opacity", "100%");
+            svg.querySelectorAll('.st9')[i].style.setProperty("cursor", "pointer");
+        }
+    }).on("mouseleave", function() {
+        for (i = 0; i < svg.querySelectorAll('.st9').length; i++) {
+            svg.querySelectorAll('.st9')[i].style.setProperty("opacity", "50%");
+        }
+    }).on("click", function() {
+        window.open("/Blog/resources/mountain.html","_self")
+    });
     var b;
-    for (b = 0; b < 9; b++) {
+    for (b = 0; b < 10; b++) {
         for (i = 0; i < svg.querySelectorAll('.st' + b.toString()).length; i++) {
             svg.querySelectorAll('.st' + b.toString())[i].style.setProperty("opacity", "50%");
         }

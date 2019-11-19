@@ -1,35 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/Blog/main/main.js"></script>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/Blog/main/main.css">
-    <link rel="stylesheet" href="/Blog/home/home.css">
-    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <title>Urbantriggers 2019</title>
-</head>
+
+<!Doctype html>
+<html>
 <body>
-    <div id="nav-placeholder"></div>
-    <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
-    <div class="top_color"></div>
-    <div class="left">
-        <div class="snippet_container">
-            <h1>404 error</h1>
-            <h2>This page does not exist</h2>
-        </div>
-        <div id="footer"></div>
-    </div>
-    <script>
-        $.get("/Blog/main/footer.html", function(data){
-            $("#footer").replaceWith(data);
-        });
-    </script>
+<style>
+    #nav {
+        list-style:none inside;
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    #nav li {
+        display:block;
+        position:relative;
+        float:left;
+        background: #24af15; /* menu background color */
+    }
+    #nav li a {
+        display:block;
+        padding:0;
+        text-decoration:none;
+        width:200px; /* this is the width of the menu items */
+        line-height:35px; /* this is the height of the menu items */
+        color:#ffffff; /* list item font color */
+    }
+    #nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+    #nav li:hover {background:#003f20;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+    #nav ul {
+        position:absolute;
+        padding:0;
+        left:0;
+        display:none; /* hides sublists */
+    }
+    #nav li:hover ul ul {display:none;} /* hides sub-sublists */
+    #nav li:hover ul {display:block;} /* shows sublist on hover */
+    #nav li li:hover ul {
+        display:block; /* shows sub-sublist on hover */
+        margin-left:200px; /* this should be the same width as the parent list item */
+        margin-top:-35px; /* aligns top of sub menu with top of list item */
+    }
+</style>
+</head>
+<ul id="nav">
+    <li><a href="#">Main Item 1</a></li>
+    <li><a href="#">Main Item 2</a>
+        <ul>
+            <li><a href="#">Sub Item</a>
+                <ul>
+                    <li><a href="#">Sub Sub Item 1</a>
+                    <li><a href="#">Sub Sub Item 2</a>
+                </ul>
+            </li>
+            <li><a href="#">Sub Item</a>
+                <ul>
+                    <li><a href="#">Sub Sub Item 1</a>
+                    <li><a href="#">Sub Sub Item 2</a>
+                </ul>
+            </li>
+            <li><a href="#">SUB SUB LIST »</a>
+                <ul>
+                    <li><a href="#">Sub Sub Item 1</a>
+                    <li><a href="#">Sub Sub Item 2</a>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">Main Item 3</a></li>
+</ul>
 </body>
 </html>
+
+		

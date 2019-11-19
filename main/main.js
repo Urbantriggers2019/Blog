@@ -42,7 +42,6 @@ $(document).ready(function () {
     var clicked = false;
     $(window).scroll(function () {
         if(scrollY < 240){
-            console.log(window.scrollY)
             $(".main_menu").css("padding-top", Math.max(100 - 0.6 * window.scrollY, 0) + "px");
             $(".main_menu").css("height", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
             $(".subnavbar").css("margin-top", Math.max(70 - 0.05 * window.scrollY, 0) + "px");
