@@ -14,18 +14,6 @@
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<script>
-    $.get("/Blog/main/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/drivers/energy/usage/usage_navbar.html", function(data){
-        $("#subnav-placeholder").replaceWith(data);
-    });
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:contains('Power Grid')").addClass('active');
-    });
-</script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container" style="column-count: 2">
@@ -43,8 +31,20 @@
     <div id="footer"></div>
 </div>
 <script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/drivers/energy/usage/usage_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
     $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
+        $(".subnavbar > ul > li:contains('Power Grid')").addClass('active');
     });
 </script>
 </body>

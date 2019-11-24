@@ -15,11 +15,6 @@
 <body>
 <!--<object class="start" style="position: absolute; z-index: 3; top:0;" type="image/svg+xml" data="/Blog/img/Start page.svg"></object>-->
     <div id="nav-placeholder"></div>
-    <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
@@ -31,6 +26,9 @@
         <div id="footer"></div>
     </div>
     <script>
+        $.get("/Blog/main/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
         $.get("/Blog/main/footer.html", function(data){
             $("#footer").replaceWith(data);
         });

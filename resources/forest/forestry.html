@@ -7,24 +7,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
-    <link rel="icon" href="/main/img/191022_Logo.png">
+    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<script>
-    $.get("/Blog/main/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/resources/forest/forest_navbar.html", function(data){
-        $("#subnav-placeholder").replaceWith(data);
-    });
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-        $(".subnavbar > ul > li:contains('Forestry')").addClass('active');
-    });
-</script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
@@ -33,8 +21,20 @@
     <div id="footer"></div>
 </div>
 <script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/resources/forest/forest_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
     $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
+        $(".subnavbar > ul > li:contains('Forestry')").addClass('active');
     });
 </script>
 </body>

@@ -7,28 +7,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
-    <link rel="icon" href="/main/img/191022_Logo.png">
+    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<script>
-    $.get("/Blog/main/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/resources/land/land_navbar.html", function(data){
-        $("#subnav-placeholder").replaceWith(data);
-    });
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Overview')").addClass('active');
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".subnavbar > ul > li:contains('Agriculture')").addClass('active');
-    });
-</script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
@@ -37,8 +21,20 @@
 </div>
 <div id="footer"></div>
 <script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/resources/land/land_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
     $.get("/Blog/footer.html", function(data){
         $("#footer").replaceWith(data);
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Overview')").addClass('active');
+        $(".subnavbar > ul > li:contains('Agriculture')").addClass('active');
     });
 </script>
 </body>
