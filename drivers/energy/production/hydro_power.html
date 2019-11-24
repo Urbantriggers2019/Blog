@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Blog/main/main.css">
+    <link rel="stylesheet" href="/Blog/main/subnavbar.css">
+    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
+    <link rel="stylesheet" href="/Blog/drivers/energy/energy.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>Urbantriggers 2019</title>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/drivers/energy/production/production_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
+        $(".subnavbar > ul > li:contains('Hydro Power')").addClass('active');
+    });
+</script>
+<div class="top_color"></div>
+<div class="left">
+    <div class="snippet_container">
+        <img src="/Blog/drivers/energy/img/OED_VanntilStroem_org.png">
+    </div>
+    <div class="snippet_container">
+        <img style="position: absolute; width: 50%; left: 50%; top: 20%" src="/Blog/drivers/energy/img/utbygging-av-vannkraft.png">
+        <h2 style="margin:0">Small hydropower plants</h2>
+        <h3 style="margin:0">Final permit, not commissioned. Q2 2019</h3>
+        <h3 style="margin:0">Under construction: 49 | 232 MW | 673 GWh</h3>
+        <h3 style="margin:0">Permission granted, not built: 351 | 953 MW | 2 884 GWh</h3>
+        <h3 style="margin:0">Total final permit, not commissioned: 400 | 1 185 MW | 3 558 GWh</h3>
+        <h2 style="margin:0">Larger hydropower cases</h2>
+        <h3 style="margin:0">Final permit, not commissioned. Q2 2019</h3>
+        <h3 style="margin:0">Under construction: 8 | 299 MW | 954 GWh</h3>
+        <h3 style="margin:0">Permission granted, not built: 14 | 380 MW | 1 001 GWh</h3>
+        <h3 style="margin:0">Total final permit, not commissioned: 22 | 679 MW | 1 955 GWh</h3>
+        <h2 style="margin:0">Renovation and expansion</h2>
+        <h3 style="margin:0">Final permit, not commissioned. Q2 2019</h3>
+        <h3 style="margin:0">Under construction: 11 | 245 MW | 654 GWh</h3>
+        <h3 style="margin:0">Permission granted, not built: 54 | 448 MW | 931 GWh</h3>
+        <h3 style="margin:0">Total final permit, not commissioned: 65 | 693 MW | 1 585 GWh</h3>
+    </div>
+    <div class="snippet_container" style="height: 20vw">
+        <img style="position: absolute; top: 30%; width: 50%;" src="/Blog/drivers/energy/img/hydropower1.png">
+        <img style="position: absolute; width: 50%; left: 50%" src="/Blog/drivers/energy/img/not permited.png">
+    </div>
+    <div id="footer"></div>
+</div>
+<script>
+    $.get("/Blog/main/footer.html", function(data){
+        $("#footer").replaceWith(data);
+    });
+</script>
+</body>
+</html>
