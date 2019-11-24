@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/Blog/main/main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
@@ -14,18 +14,6 @@
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<script>
-    $.get("/Blog/main/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
-        $("#subnav-placeholder").replaceWith(data);
-    });
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:contains('Production')").addClass('active');
-    });
-</script>
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
@@ -46,6 +34,18 @@
 <script>
     $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
+    });
+</script>
+<script>
+    $.get("/Blog/main/navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
+        $("#subnav-placeholder").replaceWith(data);
+    });
+    $(document).ready(function () {
+        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
+        $(".subnavbar > ul > li:contains('Production')").addClass('active');
     });
 </script>
 </body>
