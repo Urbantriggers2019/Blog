@@ -7,7 +7,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
-    <link rel="stylesheet" href="/Blog/drivers/energy/energy.css">
     <link rel="icon" href="/Blog/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
@@ -16,10 +15,8 @@
 <div id="nav-placeholder"></div>
 <div class="top_color"></div>
 <div class="left">
-    <div class="snippet_container" style="column-count: 2;">
-        <h2>Thermal Power</h2>
-        <h3 style="position: relative; left: 20px; width: 350px">The reserve power plants have a total capacity of 300 MW. Actual production in recent years has been about 3.5 TWh per year. This corresponds to approximately 2.5% of Norwegian power generation. Most of this comes from gas power generation at Melkøya and Mongstad. Thermal power plants in Norway are based on natural gas, gas or heat from industrial processes and waste incineration.</h3>
-        <img src="/Blog/drivers/energy/img/fuel.png">
+    <div class="snippet_container">
+        <img src="/Blog/drivers/energy/img/energy value chain .png">
     </div>
     <div id="footer"></div>
 </div>
@@ -27,7 +24,7 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/drivers/energy/production/production_navbar.html", function(data){
+    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -37,7 +34,7 @@
 <script>
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:contains('Thermal Power')").addClass('active');
+        $(".subnavbar > ul > li:nth-child(2)").addClass('active');
     });
 </script>
 </body>

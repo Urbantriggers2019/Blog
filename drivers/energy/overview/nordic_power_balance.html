@@ -3,11 +3,10 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <script type="text/javascript" src="/main/main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
-    <link rel="stylesheet" href="/Blog/drivers/energy/energy.css">
     <link rel="icon" href="/Blog/main/img/191022_Logo.png">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <title>Urbantriggers 2019</title>
@@ -17,12 +16,7 @@
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h2>This page contains:</h2>
-        <ul>
-            <li><a href="/Blog/drivers/energy/usage/nordic_power_balance.html">Nordic Power Balance</a></li>
-            <li><a href="/Blog/drivers/energy/usage/policy.html">Policy</a></li>
-            <li><a href="/Blog/drivers/energy/usage/power_grid.html">Power Grid</a></li>
-        </ul>
+        <img src="/Blog/drivers/energy/img/Annotation 2019-11-18 171458.png">
     </div>
     <div id="footer"></div>
 </div>
@@ -30,7 +24,7 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
+    $.get("/Blog/drivers/energy/overview/overview_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -40,7 +34,7 @@
 <script>
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:contains('Usage')").addClass('active');
+        $(".subnavbar > ul > li:contains('Nordic Power Balance')").addClass('active');
     });
 </script>
 </body>

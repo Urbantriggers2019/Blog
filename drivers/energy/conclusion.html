@@ -17,7 +17,7 @@
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <img src="/Blog/drivers/energy/img/Annotation 2019-11-18 171458.png">
+        <h2>conclusion</h2>
     </div>
     <div id="footer"></div>
 </div>
@@ -25,7 +25,7 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/drivers/energy/usage/usage_navbar.html", function(data){
+    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -35,7 +35,7 @@
 <script>
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:contains('Nordic Power Balance')").addClass('active');
+        $(".subnavbar > ul > li:nth-child(3)").addClass('active');
     });
 </script>
 </body>
