@@ -52,16 +52,16 @@ $(document).ready(function () {
             $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");
             $(".projects").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
             $(".vision").css("right", Math.max(14 + 0.013 * window.scrollY, 0) + "%");
-            $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.06 * window.scrollY, 0) + "px");
-            $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.01 * window.scrollY, 0) + "px");
+            $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.1 * window.scrollY, 0) + "px");
+            $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.02 * window.scrollY, 0) + "px");
             if (clicked == false){
-                $(".bar1").css("margin-top", Math.max(30 - 0.04 * window.scrollY, 0) + "px");
-                $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-                $(".bar3").css("margin-top", Math.max(70 - 0.09 * window.scrollY, 0) + "px");
+                $(".bar1").css("margin-top", Math.max(0 + 0.06 * window.scrollY, 0) + "px");
+                $(".bar2").css("margin-top", Math.max(20 + 0.025 * window.scrollY, 0) + "px");
+                $(".bar3").css("margin-top", Math.max(40 - 0.01 * window.scrollY, 0) + "px");
             } else {
-                $(".bar1").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-                $(".bar2").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
-                $(".bar3").css("margin-top", Math.max(50 - 0.065 * window.scrollY, 0) + "px");
+                $(".bar1").css("margin-top", Math.max(20 + 0.025 * window.scrollY, 0) + "px");
+                $(".bar2").css("margin-top", Math.max(20 + 0.025 * window.scrollY, 0) + "px");
+                $(".bar3").css("margin-top", Math.max(20 + 0.025 * window.scrollY, 0) + "px");
             }
             if ($(this).scrollTop() > 0) {
                 $('.text').fadeOut(150);
@@ -85,29 +85,21 @@ $(document).ready(function () {
         if ($(".bar1").css("transform") == "none"){
             $(".bar1").css({
                 "transform": "rotate(45deg)",
-                "margin-top": Math.max(50 - 0.065 * window.scrollY, 0) + "px",
+                "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
                 "transition-duration": "0.1s"});
             $(".bar3").css({
                 "transform": "rotate(-45deg)",
-                "margin-top": Math.max(50 - 0.065 * window.scrollY, 0) + "px",
+                "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
                 "transition-duration": "0.1s"});
             $(".bar2").css({"display": "none"})
             clicked = true;
         } else {
             $(".bar1").css("transform", "");
-            $(".bar1").css("margin-top",  Math.max(30 - 0.04 * window.scrollY, 0) + "px");
+            $(".bar1").css("margin-top",  Math.max(0 + 0.06 * window.scrollY, 0) + "px");
             $(".bar3").css("transform", "");
-            $(".bar3").css("margin-top", Math.max(70 - 0.09 * window.scrollY, 0) + "px");
+            $(".bar3").css("margin-top", Math.max(40 - 0.01 * window.scrollY, 0) + "px");
             $(".bar2").css({"display": "block"})
             clicked = false;
-        }
-    });
-    window.addEventListener("load", function() {
-        var svgObject = document.getElementById('land').contentDocument;
-        var svg = svgObject.getElementsByTagName('text');
-        var i;
-        for (i = 0; i < svg.length; i++) {
-            svg[i].setAttributeNS(null, "font-family", "DINNextW01-Light, din-next-w02-light, din-next-w10-light, sans-serif");
         }
     });
 });

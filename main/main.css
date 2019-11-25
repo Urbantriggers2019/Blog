@@ -312,15 +312,16 @@ ul.subsubmenu > li > a{
     background-color: white;
     transition: 0.4s;
     right: 1%;
+    z-index: 4;
 }
 .bar1{
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .bar2{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .bar3{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .snippet_container{
     background-color: rgba(255, 225, 225, 0.5);
