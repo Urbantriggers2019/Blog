@@ -53,6 +53,8 @@ window.addEventListener("load", function() {
         for (i = 0; i < svg.querySelectorAll('.st4').length; i++) {
             svg.querySelectorAll('.st4')[i].style.setProperty("opacity", "50%");
         }
+    }).on("click", function() {
+        window.open("/Blog/resources/water.html","_self")
     });
     $(svg.getElementsByClassName("st5")).on("mouseover", function() {
         for (i = 0; i < svg.querySelectorAll('.st5').length; i++) {

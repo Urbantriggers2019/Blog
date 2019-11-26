@@ -33,14 +33,16 @@
     $.get("/Blog/resources/resources_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/footer.html", function(data){
+    $.get("/Blog/main/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>
 <script>
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-        $(".subnavbar > ul > li:contains('Land')").addClass('active');
+        $(document).ready(function () {
+            $(".subnavbar > ul > li:contains('Land')").addClass('active');
+        });
     });
 </script>
 </body>
