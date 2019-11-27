@@ -4,7 +4,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/Blog/main/main.js"></script>
-    <script type="text/javascript" src="/Blog/vision/mastermap.js"></script>
+    <script type="text/javascript" src="/Blog/fauske/mastermap.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
@@ -18,7 +18,7 @@
     <div class="left">
         <div class="snippet_container">
             <h2>Mastermap</h2>
-            <h3>If you are new we recommend you start at the <a style="display: inline; color:darkorange;" href="/Blog/fauske/fauske.html">Fauske</a> tab and work your way to <a style="display: inline; color:darkorange;" href="/Blog/about_us/about_us.html">About Us</a></h3>
+            <h3>If you are new we recommend you start at the <a style="display: inline; color:darkorange;" href="/fauske/fauske.html">Fauske</a> tab and work your way to <a style="display: inline; color:darkorange;" href="/about_us/about_us.html">About Us</a></h3>
             <h3>If you would like to be guided though the website you can start at this <a style="display: inline; color:darkorange;" href="#">introduction</a></h3>
             <h3>If you want to discover a specific part of fauske you can click anywhere on this map to find out about that topic</h3>
             <object id="mastermap" class="map" type="image/svg+xml" data="/Blog/img/Mastermap p.1.svg"></object>
@@ -29,7 +29,7 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/vision/vision_navbar.html", function(data){
+        $.get("/Blog/fauske/fauske_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
         });
         $.get("/Blog/main/footer.html", function(data){
@@ -38,8 +38,8 @@
     </script>
     <script>
         $(document).ready(function () {
-            $(".inner_main_menu > ul > li:contains('Vision')").addClass('active');
-            $(".subnavbar > ul > li:nth-child(2)").addClass('active');
+            $(".inner_main_menu > ul > li:nth-child(1)").addClass('active');
+            $(".subnavbar > ul > li:nth-child(1)").addClass('active');
         });
     </script>
 </body>
