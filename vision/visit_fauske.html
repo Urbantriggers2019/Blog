@@ -15,9 +15,11 @@
 <div id="nav-placeholder"></div>
 <div class="top_color"></div>
 <div class="left">
-    <div class="snippet_container">
-        <h2>This is Fauske</h2>
-        <img src="/Blog/vision/visit_fauske/img/maxresdefault.jpg">
+    <div class="snippet_container" style="height: 904px">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div style="position: absolute; right: 0; top:60px; height: 804px; width: 50%" class="elfsight-app-abb31087-941e-4040-97bc-d1a3dbcf2b9c"></div>
+        <h2 style="column-span: all">This is Fauske</h2>
+        <img style="width: 50%" src="/Blog/vision/visit_fauske/img/maxresdefault.jpg">
     </div>
     <div id="footer"></div>
 </div>
@@ -25,7 +27,7 @@
     $.get("/Blog/vision/visit_fauske/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/vision/visiting_fauske/footer.html", function(data){
+    $.get("/Blog/vision/visit_fauske/footer.html", function(data){
         $("#footer").replaceWith(data);
     });
 </script>
