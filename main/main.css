@@ -199,14 +199,17 @@ ul.subsubmenu{
 .projects ul.subsubmenu{
     left: auto;
     right: 100%;
+    float: right;
 }
 .vision ul.subsubmenu{
     left: auto;
     right: 100%;
+    float: right;
 }
 .about_us ul.subsubmenu{
     left: auto;
     right: 100%;
+    float: right;
 }
 .subsubmenu li ul{
     margin-top:-12px;

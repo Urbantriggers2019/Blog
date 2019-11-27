@@ -215,14 +215,13 @@ window.addEventListener("load", function() {
     }).on("click", function() {
         window.open("/Blog/resources/land.html","_self")
     });
-    console.log(svg.getElementsByClassName("cls-2")[24]);
     $(svg.getElementsByClassName("cls-2")[24]).on("mouseover", function () {
         svg.getElementsByClassName("cls-2")[24].style.setProperty("opacity", "100%");
         svg.getElementsByClassName("cls-2")[24].style.setProperty("cursor", "pointer");
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-2")[24].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/transport.html","_self")
+        window.open("/Blog/drivers/tourism.html","_self")
     });
     $(svg.getElementsByClassName("cls-2")[25]).on("mouseover", function () {
         svg.getElementsByClassName("cls-2")[25].style.setProperty("opacity", "100%");
