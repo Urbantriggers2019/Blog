@@ -215,8 +215,8 @@ window.addEventListener("load", function() {
     }).on("click", function() {
         window.open("/Blog/resources/land.html","_self")
     });
+    console.log(svg.getElementsByClassName("cls-2")[24]);
     $(svg.getElementsByClassName("cls-2")[24]).on("mouseover", function () {
-        console.log("firing");
         svg.getElementsByClassName("cls-2")[24].style.setProperty("opacity", "100%");
         svg.getElementsByClassName("cls-2")[24].style.setProperty("cursor", "pointer");
     }).on("mouseleave", function () {
