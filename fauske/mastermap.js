@@ -93,7 +93,7 @@ window.addEventListener("load", function() {
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-3")[10].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/mountain/marble/marble.html","_self")
+        window.open("/Blog/resources/mountain/marble/info.html","_self")
     });
     $(svg.getElementsByClassName("cls-3")[11]).on("mouseover", function () {
         svg.getElementsByClassName("cls-3")[11].style.setProperty("opacity", "100%");

@@ -16,20 +16,27 @@
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h1>Mountain</h1>
+        <h2>Marble</h2>
         <h2>This page includes:</h2>
         <ul>
-            <li><a href="/Blog/resources/mountain/marble.html">Marble</a></li>
-            <li><a href="/Blog/resources/mountain/summary.html">Summary</a></li>
+            <li><a href="/Blog/resources/mountain/marble/info.html">Info</a></li>
+            <li><a href="/Blog/resources/mountain/marble/value_chain.html">Value Chain</a></li>
+            <li><a href="/Blog/resources/mountain/marble/location.html">Location</a></li>
+            <li><a href="/Blog/resources/mountain/marble/uses.html">Uses</a></li>
+            <li><a href="/Blog/resources/mountain/marble/production_process.html">Production Process</a></li>
+            <li><a href="/Blog/resources/mountain/marble/waste.html">Waste</a></li>
+            <li><a href="/Blog/resources/mountain/marble/waste_2.0.html">Waste 2.0</a></li>
+            <li><a href="/Blog/resources/mountain/marble/sustainability.html">Sustainability</a></li>
+            <li><a href="/Blog/resources/mountain/marble/global_market.html">Global Market</a></li>
         </ul>
     </div>
+    <div id="footer"></div>
 </div>
-<div id="footer"></div>
 <script>
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
+    $.get("/Blog/resources/mountain/mountain_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -39,9 +46,7 @@
 <script>
     $(document).ready(function () {
         $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
-        $(document).ready(function () {
-            $(".subnavbar > ul > li:nth-child(4)").addClass('active');
-        });
+        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
     });
 </script>
 </body>
