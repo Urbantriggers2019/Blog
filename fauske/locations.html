@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <script type="text/javascript" src="/Blog/fauske/mastermap.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Blog/main/main.css">
+    <link rel="stylesheet" href="/Blog/main/subnavbar.css">
+    <link rel="icon" href="/Blog/main/img/191022_Logo.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>Urbantriggers 2019</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="top_color"></div>
+    <div class="left">
+        <div class="snippet_container">
+            <object id="land" class="map" type="image/svg+xml" data="/Blog/img/7. Things in Fauske.svg"></object>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script>
+        $.get("/Blog/main/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+        $.get("/Blog/fauske/fauske_navbar.html", function(data){
+            $("#subnav-placeholder").replaceWith(data);
+        });
+        $.get("/Blog/main/footer.html", function(data){
+            $("#footer").replaceWith(data);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".inner_main_menu > ul > li:nth-child(1)").addClass('active');
+            $(".subnavbar > ul > li:nth-child(3)").addClass('active');
+        });
+    </script>
+</body>
+</html>
