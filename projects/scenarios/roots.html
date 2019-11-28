@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/Blog/main/main.js"></script>
+    <script type="text/javascript" src="/main/main.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Blog/main/main.css">
     <link rel="stylesheet" href="/Blog/main/subnavbar.css">
@@ -16,7 +16,10 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <object id="mastermap" class="map" type="image/svg+xml" data="/Blog/projects/scenarios/food_festival/img/1. Food Festival map.svg"></object>
+            <object id="mastermap" class="map" type="image/svg+xml" data="/projects/approach/img/eduindu.svg"></object>
+        </div>
+        <div class="snippet_container">
+            <object id="mastermap" class="map" type="image/svg+xml" data="/projects/approach/img/eduindu1.svg"></object>
         </div>
         <div id="footer"></div>
     </div>
@@ -24,7 +27,7 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/projects/scenarios/food_festival/food_festival_navbar.html", function(data){
+        $.get("/Blog/projects/scenarios/scenarios_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
         });
         $.get("/Blog/main/footer.html", function(data){
@@ -34,7 +37,7 @@
     <script>
         $(document).ready(function () {
             $(".inner_main_menu > ul > li:nth-child(4)").addClass('active');
-            $(".subnavbar > ul > li:nth-child(2)").addClass('active');
+            $(".subnavbar > ul > li:nth-child(5)").addClass('active');
         });
     </script>
 </body>

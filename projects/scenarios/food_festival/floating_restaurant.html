@@ -16,16 +16,7 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <h1>Food Festival</h1>
-            <h2>This page consists of:</h2>
-            <ul>
-                <li><a href="#">Map</a></li>
-                <li><a href="#">App</a></li>
-                <li><a href="#">Floating Restaurant</a></li>
-                <li><a href="#">Waterfront</a></li>
-                <li><a href="#">Floating Stage</a></li>
-                <li><a href="#">Centrum Stage</a></li>
-            </ul>
+            <object id="mastermap" class="map" type="image/svg+xml" data="/Blog/projects/scenarios/food_festival/img/3. Rendering floating restaurant.svg"></object>
         </div>
         <div id="footer"></div>
     </div>
@@ -33,7 +24,7 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/projects/projects_navbar.html", function(data){
+        $.get("/Blog/projects/scenarios/food_festival/food_festival_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
         });
         $.get("/Blog/main/footer.html", function(data){
@@ -43,7 +34,7 @@
     <script>
         $(document).ready(function () {
             $(".inner_main_menu > ul > li:nth-child(4)").addClass('active');
-            $(".subnavbar > ul > li:nth-child(2)").addClass('active');
+            $(".subnavbar > ul > li:nth-child(4)").addClass('active');
         });
     </script>
 </body>
