@@ -19,7 +19,6 @@ $(document).ready(function () {
     }
 
     $('.logo').hide();
-    $('.mobnav-placeholder').hide();
 
     var timer;
 
@@ -84,7 +83,8 @@ $(document).ready(function () {
     });
     $(".menu_container").click(function () {
         if ($(".bar1").css("transform") == "none"){
-            $(".mob_nav-placeholder").show();
+            $(".mob_main_menu").css({"display": "block"});
+            console.log("firing");
             $(".bar1").css({
                 "transform": "rotate(45deg)",
                 "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
@@ -96,7 +96,7 @@ $(document).ready(function () {
             $(".bar2").css({"display": "none"});
             clicked = true;
         } else {
-            $(".mob_nav-placeholder").hide();
+            $(".mob_main_menu").css({"display": "none"});
             $(".bar1").css("transform", "");
             $(".bar1").css("margin-top",  Math.max(0 + 0.06 * window.scrollY, 0) + "px");
             $(".bar3").css("transform", "");
