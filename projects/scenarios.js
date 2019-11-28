@@ -23,7 +23,7 @@ window.addEventListener("load", function() {
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-82")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
-        window.open("/Blog/projects/scenarios/food_festival.html", "_self")
+        window.open("/Blog/projects/scenarios/food_festival/map.html", "_self")
     });
     $(svg.getElementsByClassName("cls-142")[0]).on("mouseover", function () {
         svg.getElementsByClassName("cls-142")[0].style.setProperty("opacity", "100%");
