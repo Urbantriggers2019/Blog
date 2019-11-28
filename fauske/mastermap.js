@@ -257,7 +257,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('railway_connections')).hide();
         svg.getElementsByClassName("st6")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/transport/railway.html","_self")
+        window.open("/Blog/drivers/transport/distances.html","_self")
     });
     $(svg.getElementsByClassName("st6")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st6")[2].style.setProperty("opacity", "100%");
