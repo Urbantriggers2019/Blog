@@ -16,20 +16,17 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <object id="land" class="map" type="image/svg+xml" data="/Blog/drivers/education/img/the issue_web.svg"></object>
+            <object id="land" class="map" type="image/svg+xml" data="/Blog/drivers/education/img/overview.svg"></object>
         </div>
         <div class="snippet_container">
             <h1>Education</h1>
             <h2>This page contains:</h2>
-            <ul>
-                <li><a href="#">Problems</a></li>
-                <li><a href="#">Primary</a></li>
-                <li><a href="#">Secondary</a></li>
-                <li><a href="#">General Highschool</a></li>
-                <li><a href="#">Vocational Highschool</a></li>
-                <li><a href="#">University</a></li>
-                <li><a href="#">Folkehøyskole</a></li>
-                <li><a href="#">Local Industries</a></li>
+            <ul style="list-style: none">
+                <li><a href="/Blog/drivers/education/1-10th.html"><img style="width: 35px; position: relative; top:8px;" src="/Blog/img/icons/1x/1-10thgrade.png"> 1-10th</a></li>
+                <li><a href="/Blog/drivers/education/highschool.html"><img style="width: 35px; position: relative; top:8px;" src="/Blog/img/icons/1x/high_school.png"> Highschool</a></li>
+                <li><a href="/Blog/drivers/education/further_studies.html"><img style="width: 35px; position: relative; top:8px;" src="/Blog/img/icons/1x/further_studies.png"> Further Studies</a></li>
+                <li><a href="/Blog/drivers/education/local_industries.html"><img style="width: 35px; position: relative; top:8px;" src="/Blog/img/icons/1x/local_industries.png"> Local Industries</a></li>
+                <li><a href="/drivers/education/conclusion.html">conclusion</a></li>
             </ul>
         </div>
         <div id="footer"></div>
@@ -38,7 +35,7 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/forces/drivers_navbar.html", function(data){
+        $.get("/Blog/drivers/drivers_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
         });
         $.get("/Blog/footer.html", function(data){

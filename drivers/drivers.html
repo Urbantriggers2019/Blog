@@ -34,6 +34,9 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
+        $.get("/Blog/drivers/drivers_navbar.html", function(data){
+            $("#subnav-placeholder").replaceWith(data);
+        });
         $.get("/Blog/footer.html", function(data){
             $("#footer").replaceWith(data);
         });

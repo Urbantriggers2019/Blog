@@ -16,7 +16,7 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <img src="/Blog/drivers/tourism/img/Tourism - summary.png">
+            <object id="mastermap" class="map" type="image/svg+xml" style="padding: 30px; width: 40%; position: relative; left: 30%" data="/Blog/drivers/transport/img/Deep_Sea_Harbor.svg"></object>
         </div>
         <div id="footer"></div>
     </div>
@@ -24,17 +24,17 @@
         $.get("/Blog/main/navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/drivers/drivers_navbar.html", function(data){
+        $.get("/Blog/drivers/transport/transport_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
         });
-        $.get("/Blog/footer.html", function(data){
+        $.get("/Blog/main/footer.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>
     <script>
         $(document).ready(function () {
-            $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-            $(".subnavbar > ul > li:contains('Tourism')").addClass('active');
+            $(".inner_main_menu > ul > li:nth-child(3)").addClass('active');
+            $(".subnavbar > ul > li:nth-child(6) ").addClass('active');
         });
     </script>
 </body>
