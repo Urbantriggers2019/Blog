@@ -19,6 +19,7 @@ $(document).ready(function () {
     }
 
     $('.logo').hide();
+    $('.mobnav-placeholder').hide();
 
     var timer;
 
@@ -83,6 +84,7 @@ $(document).ready(function () {
     });
     $(".menu_container").click(function () {
         if ($(".bar1").css("transform") == "none"){
+            $(".mob_nav-placeholder").show();
             $(".bar1").css({
                 "transform": "rotate(45deg)",
                 "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
@@ -91,14 +93,15 @@ $(document).ready(function () {
                 "transform": "rotate(-45deg)",
                 "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
                 "transition-duration": "0.1s"});
-            $(".bar2").css({"display": "none"})
+            $(".bar2").css({"display": "none"});
             clicked = true;
         } else {
+            $(".mob_nav-placeholder").hide();
             $(".bar1").css("transform", "");
             $(".bar1").css("margin-top",  Math.max(0 + 0.06 * window.scrollY, 0) + "px");
             $(".bar3").css("transform", "");
             $(".bar3").css("margin-top", Math.max(40 - 0.01 * window.scrollY, 0) + "px");
-            $(".bar2").css({"display": "block"})
+            $(".bar2").css({"display": "block"});
             clicked = false;
         }
     });
