@@ -17,9 +17,11 @@
 <div class="left">
     <div class="snippet_container">
         <h2>This page contains</h2>
-            <ul>
-                <li><a href="/Blog/vision/connection/connection_education.html"></a>Timeline</li>
-            </ul>
+        <ul style="column-count:1;">
+            <li><a href="/Blog/vision/hub/development.html">Development Progress</a></li>
+            <li><a href="/Blog/vision/hub/current_vs_future.html">Current vs Future</a></li>
+            <li><a href="/Blog/vision/hub/potential_values.html">Potential Values</a></li>
+        </ul>
     </div>
     <div id="footer"></div>
 </div>
@@ -27,7 +29,7 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
+    $.get("/Blog/vision/vision_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -36,8 +38,8 @@
 </script>
 <script>
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:nth-child(3)").addClass('active');
+        $(".inner_main_menu > ul > li:nth-child(5)").addClass('active');
+        $(".subnavbar > ul > li:nth-child(1)").addClass('active');
     });
 </script>
 </body>

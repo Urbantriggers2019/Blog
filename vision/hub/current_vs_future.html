@@ -16,10 +16,9 @@
 <div class="top_color"></div>
 <div class="left">
     <div class="snippet_container">
-        <h2>This page contains</h2>
-            <ul>
-                <object id="land" class="map" type="image/svg+xml" data="/Blog/vision/hub/img/Today and future The hub.svg"></object>
-            </ul>
+        <ul>
+            <object id="land" class="map" type="image/svg+xml" data="/Blog/vision/hub/img/Today and future The hub.svg"></object>
+        </ul>
     </div>
     <div id="footer"></div>
 </div>
@@ -27,7 +26,7 @@
     $.get("/Blog/main/navbar.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-    $.get("/Blog/drivers/energy/energy_navbar.html", function(data){
+    $.get("/Blog/vision/hub/hub_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });
     $.get("/Blog/main/footer.html", function(data){
@@ -36,7 +35,7 @@
 </script>
 <script>
     $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
+        $(".inner_main_menu > ul > li:nth-child(5))").addClass('active');
         $(".subnavbar > ul > li:nth-child(3)").addClass('active');
     });
 </script>
