@@ -49,8 +49,8 @@ $(document).ready(function () {
             $(".inner_main_menu > ul > li").css("margin-top", Math.min(0 - 0.03 * window.scrollY, 0) + "px");
             $(".inner_main_menu .fauske, .resources, .forces, .projects, .vision, .about_us").css("font-size", Math.max(35 - 0.037 * window.scrollY, 0) + "px");
             $(".resources").css("left", Math.max(11 + 0.016 * window.scrollY, 0) + "%");
-            $(".forces").css("left", Math.max(26 + 0.026 * window.scrollY, 0) + "%");
-            $(".projects").css("right", Math.max(23 + 0.026 * window.scrollY, 0) + "%");
+            $(".forces").css("left", Math.max(32 + 0.026 * window.scrollY, 0) + "%");
+            $(".projects").css("right", Math.max(32 + 0.013 * window.scrollY, 0) + "%");
             $(".vision").css("right", Math.max(14 + 0.013 * window.scrollY, 0) + "%");
             $(".bar1, .bar2, .bar3").css("width", Math.max(60 - 0.1 * window.scrollY, 0) + "px");
             $(".bar1, .bar2, .bar3").css("height", Math.max(10 - 0.02 * window.scrollY, 0) + "px");
