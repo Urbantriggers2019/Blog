@@ -420,6 +420,6 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st7")[2].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st7")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/tourism.html","_self")
+        window.open("/Blog/drivers/tourism.htmll","_self")
     });
 });
