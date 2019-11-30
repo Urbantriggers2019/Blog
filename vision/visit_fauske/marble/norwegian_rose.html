@@ -28,9 +28,36 @@
     <div id="footer"></div>
 </div>
 <script>
-    $.get("/Blog/vision/visit_fauske/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
+    addMainNavbar();
+    function addMainNavbar(){
+        $.get("/Blog/vision/visit_fauske/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+            addNavBar();
+        });
+    }
+    function addNavBar() {
+        $.get("/Blog/vision/visit_fauske/marble/marble_navbar.html", function(data){
+            $("#subnav-placeholder").replaceWith(data);
+            addFooter();
+        });
+    }
+    function addFooter() {
+        $.get("/Blog/main/footer.html", function(data){
+            $("#footer").replaceWith(data);
+            addMainActive();
+        });
+    }
+    function addMainActive() {
+        $(document).ready(function () {
+            $(".inner_main_menu > ul > li:nth-child(5)").addClass('active');
+        });
+        addSubActive()
+    }
+    function addSubActive() {
+        $(document).ready(function () {
+            $(".subnavbar > ul > li:nth-child(2) ").addClass('active');
+        });
+    }
     $.get("/Blog/vision/visit_fauske/marble/marble_navbar.html", function(data){
         $("#subnav-placeholder").replaceWith(data);
     });

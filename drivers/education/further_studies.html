@@ -16,11 +16,9 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container">
-            <object id="land" class="map" type="image/svg+xml" data="/Blog/drivers/education/img/furtherstudies.svg"></object>
-        </div>
-        <div class="snippet_container">
             <h2>This page contains</h2>
             <ul>
+                <li><a href="/Blog/drivers/education/further_studies/further_studies_overview.html">Overview</a></li>
                 <li><a href="/Blog/drivers/education/further_studies/vocational_school.html">Vocational School</a></li>
                 <li><a href="/Blog/drivers/education/further_studies/folkehøyskole.html">Folkehøyskole</a></li>
             </ul>
@@ -28,21 +26,36 @@
         <div id="footer"></div>
     </div>
     <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/drivers/education/education_navbar.html", function(data){
-            $("#subnav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/main/footer.html", function(data){
-            $("#footer").replaceWith(data);
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".inner_main_menu > ul > li:nth-child(3)").addClass('active');
-            $(".subnavbar > ul > li:nth-child(4) ").addClass('active');
-        });
+        addMainNavbar();
+        function addMainNavbar(){
+            $.get("/Blog/main/navbar.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+                addNavBar();
+            });
+        }
+        function addNavBar() {
+            $.get("/Blog/drivers/education/education_navbar.html", function(data){
+                $("#subnav-placeholder").replaceWith(data);
+                addFooter();
+            });
+        }
+        function addFooter() {
+            $.get("/Blog/main/footer.html", function(data){
+                $("#footer").replaceWith(data);
+                addMainActive();
+            });
+        }
+        function addMainActive() {
+            $(document).ready(function () {
+                $(".inner_main_menu > ul > li:nth-child(3)").addClass('active');
+            });
+            addSubActive()
+        }
+        function addSubActive() {
+            $(document).ready(function () {
+                $(".subnavbar > ul > li:nth-child(4) ").addClass('active');
+            });
+        }
     </script>
 </body>
 </html>

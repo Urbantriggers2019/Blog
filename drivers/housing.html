@@ -21,28 +21,42 @@
             <ul>
                 <li><a href="/Blog/drivers/housing/overview.html">Overview</a></li>
                 <li><a href="/Blog/drivers/housing/vacation.html">Vacation</a></li>
-                <li><a href="#">Temporary</a></li>
                 <li><a href="/Blog/drivers/housing/long_term.html">Long Term</a></li>
             </ul>
         </div>
         <div id="footer"></div>
     </div>
     <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/drivers/drivers_navbar.html", function(data){
-            $("#subnav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/footer.html", function(data){
-            $("#footer").replaceWith(data);
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-            $(".subnavbar > ul > li:contains('Housing')").addClass('active');
-        });
+        addMainNavbar();
+        function addMainNavbar(){
+            $.get("/Blog/main/navbar.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+                addNavBar();
+            });
+        }
+        function addNavBar() {
+            $.get("/Blog/drivers/drivers_navbar.html", function(data){
+                $("#subnav-placeholder").replaceWith(data);
+                addFooter();
+            });
+        }
+        function addFooter() {
+            $.get("/Blog/main/footer.html", function(data){
+                $("#footer").replaceWith(data);
+                addMainActive();
+            });
+        }
+        function addMainActive() {
+            $(document).ready(function () {
+                $(".inner_main_menu > ul > li:nth-child(3)").addClass('active');
+            });
+            addSubActive()
+        }
+        function addSubActive() {
+            $(document).ready(function () {
+                $(".subnavbar > ul > li:nth-child(1) ").addClass('active');
+            });
+        }
     </script>
 </body>
 </html>

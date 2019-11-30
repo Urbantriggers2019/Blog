@@ -21,21 +21,36 @@
         <div id="footer"></div>
     </div>
     <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/projects/scenarios/food_festival/food_festival_navbar.html", function(data){
-            $("#subnav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/main/footer.html", function(data){
-            $("#footer").replaceWith(data);
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".inner_main_menu > ul > li:nth-child(4)").addClass('active');
-            $(".subnavbar > ul > li:nth-child(4)").addClass('active');
-        });
+        addMainNavbar();
+        function addMainNavbar(){
+            $.get("/Blog/main/navbar.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+                addNavBar();
+            });
+        }
+        function addNavBar() {
+            $.get("/Blog/projects/scenarios/food_festival/food_festival_navbar.html", function(data){
+                $("#subnav-placeholder").replaceWith(data);
+                addFooter();
+            });
+        }
+        function addFooter() {
+            $.get("/Blog/main/footer.html", function(data){
+                $("#footer").replaceWith(data);
+                addMainActive();
+            });
+        }
+        function addMainActive() {
+            $(document).ready(function () {
+                $(".inner_main_menu > ul > li:nth-child(4)").addClass('active');
+            });
+            addSubActive()
+        }
+        function addSubActive() {
+            $(document).ready(function () {
+                $(".subnavbar > ul > li:nth-child(4) ").addClass('active');
+            });
+        }
     </script>
 </body>
 </html>

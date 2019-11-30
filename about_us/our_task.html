@@ -16,16 +16,6 @@
     <div class="top_color"></div>
     <div class="left">
         <div class="snippet_container" style="column-count: 2">
-            <h1>Vår Oppgave</h1>
-            <h3>Urban Trigger Group ble kontaktet av Fauske kommune etter at de så de to tidligere studentprosjektene “It takes av village” og “Active, inclusive and sustainable” på en eiendomsutviklingskonferanse i Trondheim. Fauske etterspør innspill til hvordan de kan utvikle by og næringsliv, og har derfor inngått et samarbeid med høstens Urban Triggers studio 2019:</h3>
-            <ul>
-                <li>Hva skal skje med Fauske? Ny E6, ny by!</li>
-                <li>Finne prosjekter som kan utvikle Fauske som by i form av infrastruktur, kultur og næring.</li>
-                <li>En uke i Fauske med besøk og samtaler med bedrifter, politikere, elever, frivillige og kommunen.</li>
-            </ul>
-            <img src="/Blog/about_us/img/saltenposten-linn-braseth-gulliksen-e1566983860772.jpg">
-        </div>
-        <div class="snippet_container" style="column-count: 2">
             <h1>Our Task</h1>
             <h3>Urban Trigger Group was contacted by the municipality of Fauske after seeing the two previous student projects “It takes of village” and “Active, inclusive and sustainable” at a real estate development conference in Trondheim. Fauske seeks input on how they can develop the city and business, and has therefore entered into a collaboration with this fall's Urban Triggers studio 2019:</h3>
             <ul>
@@ -35,24 +25,49 @@
             </ul>
             <img src="/Blog/about_us/img/saltenposten-linn-braseth-gulliksen-e1566983860772.jpg">
         </div>
+        <div class="snippet_container" style="column-count: 2">
+            <h1>Vår Oppgave</h1>
+            <h3>Urban Trigger Group ble kontaktet av Fauske kommune etter at de så de to tidligere studentprosjektene “It takes av village” og “Active, inclusive and sustainable” på en eiendomsutviklingskonferanse i Trondheim. Fauske etterspør innspill til hvordan de kan utvikle by og næringsliv, og har derfor inngått et samarbeid med høstens Urban Triggers studio 2019:</h3>
+            <ul>
+                <li>Hva skal skje med Fauske? Ny E6, ny by!</li>
+                <li>Finne prosjekter som kan utvikle Fauske som by i form av infrastruktur, kultur og næring.</li>
+                <li>En uke i Fauske med besøk og samtaler med bedrifter, politikere, elever, frivillige og kommunen.</li>
+            </ul>
+            <img src="/Blog/about_us/img/saltenposten-linn-braseth-gulliksen-e1566983860772.jpg">
+        </div>
         <div id="footer"></div>
     </div>
     <script>
-        $.get("/Blog/main/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/about_us/about_navbar.html", function(data){
-            $("#subnav-placeholder").replaceWith(data);
-        });
-        $.get("/Blog/main/footer.html", function(data){
-            $("#footer").replaceWith(data);
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".inner_main_menu > ul > li:contains('Our Task')").addClass('active');
-            $(".subnavbar > ul > li:nth-child(1) ").addClass('active');
-        });
+        addMainNavbar();
+        function addMainNavbar(){
+            $.get("/Blog/main/navbar.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+                addNavBar();
+            });
+        }
+        function addNavBar() {
+            $.get("/Blog/about_us/about_navbar.html", function(data){
+                $("#subnav-placeholder").replaceWith(data);
+                addFooter();
+            });
+        }
+        function addFooter() {
+            $.get("/Blog/main/footer.html", function(data){
+                $("#footer").replaceWith(data);
+                addMainActive();
+            });
+        }
+        function addMainActive() {
+            $(document).ready(function () {
+                $(".inner_main_menu > ul > li:nth-child(6)").addClass('active');
+            });
+            addSubActive()
+        }
+        function addSubActive() {
+            $(document).ready(function () {
+                $(".subnavbar > ul > li:nth-child(1)").addClass('active');
+            });
+        }
     </script>
 </body>
 </html>

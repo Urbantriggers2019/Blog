@@ -20,29 +20,42 @@
         <h2>This page includes:</h2>
         <ul>
             <li><a href="/Blog/resources/land/agriculture.html">Agriculture</a></li>
-            <li><a href="/Blog/resources/land/housing.html">Housing</a></li>
+            <li><a href="/Blog/drivers/transport/infrastructure.html">Infrastructure</a></li>
         </ul>
     </div>
 </div>
 <div id="footer"></div>
 <script>
-    $.get("/Blog/main/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/resources/resources_navbar.html", function(data){
-        $("#subnav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/main/footer.html", function(data){
-        $("#footer").replaceWith(data);
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Resources')").addClass('active');
+    addMainNavbar();
+    function addMainNavbar(){
+        $.get("/Blog/main/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+            addNavBar();
+        });
+    }
+    function addNavBar() {
+        $.get("/Blog/resources/resources_navbar.html", function(data){
+            $("#subnav-placeholder").replaceWith(data);
+            addFooter();
+        });
+    }
+    function addFooter() {
+        $.get("/Blog/main/footer.html", function(data){
+            $("#footer").replaceWith(data);
+            addMainActive();
+        });
+    }
+    function addMainActive() {
+        $(document).ready(function () {
+            $(".inner_main_menu > ul > li:nth-child(2)").addClass('active');
+        });
+        addSubActive()
+    }
+    function addSubActive() {
         $(document).ready(function () {
             $(".subnavbar > ul > li:contains('Land')").addClass('active');
         });
-    });
+    }
 </script>
 </body>
 </html>

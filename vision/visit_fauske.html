@@ -25,18 +25,19 @@
     <div id="footer"></div>
 </div>
 <script>
-    $.get("/Blog/vision/visit_fauske/navbar.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    $.get("/Blog/vision/visit_fauske/footer.html", function(data){
-        $("#footer").replaceWith(data);
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $(".inner_main_menu > ul > li:contains('Drivers')").addClass('active');
-        $(".subnavbar > ul > li:nth-child(4)").addClass('active');
-    });
+    addMainNavbar();
+    function addMainNavbar(){
+        $.get("/Blog/vision/visit_fauske/navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+            addFooter();
+        });
+    }
+    function addFooter() {
+        $.get("/Blog/vision/visit_fauske/footer.html", function(data){
+            $("#footer").replaceWith(data);
+            addMainActive();
+        });
+    }
 </script>
 </body>
 </html>
