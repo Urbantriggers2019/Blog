@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-28")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
-        window.open("/Blog/projects/scenarios/link.html", "_self")
+        window.open("/Blog/projects/scenarios/link/overview.html", "_self")
     });
     $(svg.getElementsByClassName("cls-82")[0]).on("mouseover", function () {
         svg.getElementsByClassName("cls-82")[0].style.setProperty("opacity", "100%");
@@ -31,6 +31,6 @@ window.addEventListener("load", function() {
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-142")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
-        window.open("/Blog/projects/scenarios/roots.html", "_self")
+        window.open("/Blog/projects/scenarios/roots/roots_overview.html", "_self")
     });
 });
