@@ -20,7 +20,11 @@
     <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
     <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
     <div class="snippet_container">
-        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Information-08.svg"></object>
+        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Information-03.svg"></object>
+    </div>
+    <div class="snippet_container">
+        <h2>Sources</h2>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">http://d2ouvy59p0dg6k.cloudfront.net/downloads/ecosystem_services.pdf</a></h3>
     </div>
     <div id="footer"></div>
 </div>
@@ -33,7 +37,7 @@
         });
     }
     function addNavBar() {
-        $.get("/Blog/resources/forest/forest_navbar.html", function(data){
+        $.get("/Blog/resources/forest/information/forest_information_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
             addFooter();
         });
@@ -52,7 +56,7 @@
     }
     function addSubActive() {
         $(document).ready(function () {
-            $(".subnavbar > ul > li:contains('Extra')").addClass('active');
+            $(".subnavbar > ul > li:nth-child(4)").addClass('active');
         });
     }
 </script>

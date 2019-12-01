@@ -66,7 +66,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Aquaculture_connections')).hide();
         svg.getElementsByClassName("st1")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/water/aquaculture.html","_self")
+        window.open("/Blog/resources/water/aquaculture/overview.html","_self")
     });
     //harbour
     $(svg.getElementsByClassName("st1")[1]).on("mouseover", function () {
@@ -77,7 +77,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Harbour_connections')).hide();
         svg.getElementsByClassName("st1")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/water/aquaculture.html","_self")
+        window.open("/Blog/resources/water/aquaculture/overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[0]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[0].style.setProperty("opacity", "100%");
@@ -87,7 +87,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('forestry_connections')).hide();
         svg.getElementsByClassName("st2")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/forest/forestry.html","_self")
+        window.open("/Blog/resources/forest/information/forestry_overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[1]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[1].style.setProperty("opacity", "100%");
@@ -97,7 +97,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Flora_connections')).hide();
         svg.getElementsByClassName("st2")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/forest/forestry/overview.html","_self")
+        window.open("/Blog/resources/forest/information/forestry_overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[2].style.setProperty("opacity", "100%");
@@ -107,7 +107,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Fauna_connections')).hide();
         svg.getElementsByClassName("st2")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/forest/forestry/overview.html","_self")
+        window.open("/Blog/resources/forest/information/forestry_overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[3].style.setProperty("opacity", "100%");
@@ -117,7 +117,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Ecosystem_services')).hide();
         svg.getElementsByClassName("st2")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/resources/forest/forestry/forestry_overview.html","_self")
     });
     //marble
     $(svg.getElementsByClassName("st3")[0]).on("mouseover", function () {
@@ -236,7 +236,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Temporary_housing_connections')).hide();
         svg.getElementsByClassName("st5")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/housing/overview.html","_self")
+        window.open("/Blog/drivers/housing/input.html","_self")
     });
     //road
     $(svg.getElementsByClassName("st6")[0]).on("mouseover", function () {
@@ -310,7 +310,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('nature_connections')).hide();
         svg.getElementsByClassName("st7")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/tourism/overview.html","_self")
+        window.open("/Blog/drivers/tourism/input.html","_self")
     });
     $(svg.getElementsByClassName("st0")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st0")[0].style.setProperty("opacity", "100%");
@@ -324,7 +324,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st0")[2].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st0")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/land.html","_self")
+        window.open("/Blog/resources/land/agriculture.html","_self")
     });
     $(svg.getElementsByClassName("st1")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st1")[0].style.setProperty("opacity", "100%");
@@ -336,7 +336,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st1")[1].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st1")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/water.html","_self")
+        window.open("/Blog/resources/water/aquaculture/overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[4]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[0].style.setProperty("opacity", "100%");
@@ -352,7 +352,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st2")[3].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st2")[4].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/forest.html","_self")
+        window.open("/Blog/resources/forest/information/forestry_overview.html","_self")
     });
     $(svg.getElementsByClassName("st3")[1]).on("mouseover", function () {
         svg.getElementsByClassName("st3")[0].style.setProperty("opacity", "100%");
@@ -362,7 +362,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st3")[0].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st3")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/mountain.html","_self")
+        window.open("/Blog/resources/mountain/marble/info.html","_self")
     });
     $(svg.getElementsByClassName("st8")[1]).on("mouseover", function () {
         svg.getElementsByClassName("st8")[0].style.setProperty("opacity", "100%");
@@ -374,7 +374,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st8")[1].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st8")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/energy.html","_self")
+        window.open("/Blog/drivers/energy/overview/nordic_power_balance.html","_self")
     });
     $(svg.getElementsByClassName("st4")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st4")[0].style.setProperty("opacity", "100%");
@@ -390,7 +390,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st4")[3].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st4")[4].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/education.html","_self")
+        window.open("/Blog/drivers/education/highschool/overview.html","_self")
     });
     $(svg.getElementsByClassName("st6")[4]).on("mouseover", function () {
         svg.getElementsByClassName("st6")[0].style.setProperty("opacity", "100%");
@@ -406,7 +406,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st6")[3].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st6")[4].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/transport.html","_self")
+        window.open("/Blog/drivers/transport/introduction/current.html","_self")
     });
     $(svg.getElementsByClassName("st7")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st7")[0].style.setProperty("opacity", "100%");
@@ -420,6 +420,6 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st7")[2].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st7")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/tourism.htmll","_self")
+        window.open("/Blog/drivers/tourism/overview.html","_self")
     });
 });

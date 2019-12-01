@@ -20,12 +20,15 @@
     <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
     <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
     <div class="snippet_container">
-        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/water/img/F Current Production cycle.svg"></object>
+        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Information-06.svg"></object>
     </div>
     <div class="snippet_container">
         <h2>Sources</h2>
-        <h3>Interview with Asbjørn Hagen, Environmental manager at Salten Aqua AS (Mobil: +479014135, Adresse:
-            Straumøyrveien 28, 8211 Fauske, web: www.saltenaqua.no)</h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://www.ssb.no/jord-og-skog-jakt-og-fiskeri/artikler-og-publikasjoner/trysil-har-mest-skog-men-elverum-topper-hogst-lista</a></h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://www.ssb.no/jord-og-skog-jakt-og-fiskeri/statistikker/stskog</a></h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://www.skogbruk.nibio.no/200-skog-og-landskap-skogeiendommer-sys-selsetting-kompetanse-og-fritid-skogeiendommer</a></h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://no.wikipedia.org/wiki/Skogbruk_i_Norge</a></h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://www.ssb.no/jord-og-skog-jakt-og-fiskeri?de=Forestry+</a></h3>
     </div>
     <div id="footer"></div>
 </div>
@@ -38,7 +41,7 @@
         });
     }
     function addNavBar() {
-        $.get("/Blog/resources/water/aquaculture/aquaculture_navbar.html", function(data){
+        $.get("/Blog/resources/forest/information/forest_information_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
             addFooter();
         });
@@ -57,7 +60,7 @@
     }
     function addSubActive() {
         $(document).ready(function () {
-            $(".subnavbar > ul > li:nth-child(8) ").addClass('active');
+            $(".subnavbar > ul > li:nth-child(7)").addClass('active');
         });
     }
 </script>

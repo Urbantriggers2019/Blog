@@ -20,12 +20,12 @@
     <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
     <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
     <div class="snippet_container">
-        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/water/img/F Current Production cycle.svg"></object>
+        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/forest/img/Information-08.svg"></object>
     </div>
     <div class="snippet_container">
         <h2>Sources</h2>
-        <h3>Interview with Asbjørn Hagen, Environmental manager at Salten Aqua AS (Mobil: +479014135, Adresse:
-            Straumøyrveien 28, 8211 Fauske, web: www.saltenaqua.no)</h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://www.statskog.no/eiendom/statskogs-eiendommer</a></h3>
+        <h3><a style="color: darkorange; display: inline;" href="https://www.openrailwaymap.org/">https://nibio.brage.unit.no/nibio-xmlui/handle/11250/2463799</a></h3>
     </div>
     <div id="footer"></div>
 </div>
@@ -38,7 +38,7 @@
         });
     }
     function addNavBar() {
-        $.get("/Blog/resources/water/aquaculture/aquaculture_navbar.html", function(data){
+        $.get("/Blog/resources/forest/information/forest_information_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
             addFooter();
         });
@@ -57,7 +57,7 @@
     }
     function addSubActive() {
         $(document).ready(function () {
-            $(".subnavbar > ul > li:nth-child(8) ").addClass('active');
+            $(".subnavbar > ul > li:nth-child(9)").addClass('active');
         });
     }
 </script>

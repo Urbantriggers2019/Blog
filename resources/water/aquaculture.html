@@ -20,16 +20,17 @@
     <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
     <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
     <div class="snippet_container">
-        <object id="land" class="map" type="image/svg+xml" data="/Blog/resources/water/img/F Overview.svg"></object>
-    </div>
-    <div class="snippet_container">
-        <h2>Sources</h2>
-        <h3>Global Aquaculture Alliance (ed.). 2019. “<a style="color: darkorange; display: inline;" href=" https://www.aquaculturealliance.org/blog/what-is-aquaculture-why-do-we-need-it/">What Is Aquaculture and Why Do We Need It?</a>“ Downloaded
-            01.11.2019.
-            https://www.aquaculturealliance.org/blog/what-is-aquaculture-why-do-we-need-it/</h3>
-
-        <h3><a style="color: darkorange; display: inline;" href="https://nyhetssenter.sparebank1.no/snn/2017/06/19/full-krise-suksess/">Pictures</a>. Downloaded 03.11.2019.
-        </h3>
+        <h2>This page consists of:</h2>
+        <ul>
+            <li><a href="/Blog/resources/water/aquaculture/overview.html">Overview</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/why_is_aquaculture_important.html">Importance</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/why_is_aquaculture_better_than.html">Supreriority</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/the_value_chain_and_ownership_structures.html">Value Chain</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/skjerstadfjord_and_aquaculture.html">Skjerstadfjorden</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/legal_basis.html">Legal basis</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/production_cycle.html">Production cycle</a></li>
+            <li><a href="/Blog/resources/water/aquaculture/employment_and_ergonomics.html">Economics</a></li>
+        </ul>
     </div>
     <div id="footer"></div>
 </div>
@@ -42,7 +43,7 @@
         });
     }
     function addNavBar() {
-        $.get("/Blog/resources/water/aquaculture/aquaculture_navbar.html", function(data){
+        $.get("/Blog/resources/water/water_navbar.html", function(data){
             $("#subnav-placeholder").replaceWith(data);
             addFooter();
         });
@@ -61,7 +62,7 @@
     }
     function addSubActive() {
         $(document).ready(function () {
-            $(".subnavbar > ul > li:nth-child(1) ").addClass('active');
+            $(".subnavbar > ul > li:nth-child(2) ").addClass('active');
         });
     }
 </script>
