@@ -1,16 +1,22 @@
 window.addEventListener("load", function() {
-    console.log("firing");
     var svgObject = document.getElementById('land').contentDocument;
     var svg = svgObject.getElementsByTagName('svg')[0];
-    console.log($(svg.getElementsByClassName('cls-2')[0]));
-    $(svg.getElementsByClassName('cls-2')[0]).on("click", function () {
+    $(svg.getElementsByClassName('st0')[0]).on("click", function () {
         window.location.replace("/Blog/fauske/wealth_of_fauske.html");
     }).on("mouseover", function () {
         document.body.style.cursor = "pointer";
     });
-    $(svg.getElementsByClassName("st0")).on("mouseover", function() {
+    console.log($(svg.getElementById('Text')));
+    $(svg.getElementsByTagName('path')[0]).on("mouseover", function () {
+        svg.querySelectorAll('#text').style.setProperty("cursor", "pointer");
+    });
+    $(svg.getElementById('Text')).on("mouseover", function() {
         for (i = 0; i < svg.querySelectorAll('.st0').length; i++) {
+            svg.querySelectorAll('.st0')[i].style.setProperty("opacity", "100%");
             svg.querySelectorAll('.st0')[i].style.setProperty("cursor", "pointer");
         }
+    });
+    $(svg.getElementsByClassName('st0')[0]).on("mouseover", function() {
+        svg.querySelectorAll('.st0')[0].style.setProperty("cursor", "pointer");
     })
 });
