@@ -134,6 +134,45 @@ body{
     margin: 0;
     background: lightgray;
 }
+.left_button, .right_button{
+    border-radius: 50%; 
+    position: fixed; 
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgb(86, 86, 86);
+    border: 3px solid rgb(43, 43, 43);
+}
+.left_button{
+    left: 2.5%;
+}
+.right_button{
+    right: 2.5%;
+}
+.left_hover, .right_hover{
+    height:100%;
+    position: absolute;
+    width:10%;
+}
+.right_hover{
+    right: 0;
+}
+.arrow_1, .arrow_2{
+    position: absolute;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    top:15px;
+    width: 24px;
+    height: 24px;
+}
+.arrow_1{
+    left:22px;
+    transform: rotate(135deg);
+}
+.arrow_2{
+    left:10px;
+    transform: rotate(-45deg);
+}
 .main_menu{
     background-color: rgb(43, 43, 43);
     position: fixed;

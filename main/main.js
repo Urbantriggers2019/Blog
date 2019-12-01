@@ -12,7 +12,88 @@ $(document).ready(function () {
         if ($(this).width() > 1264) {
             $(".inner_main_menu").css("display", "inline");
             $(".menu_container").css("display", "none");
+            $(".snippet_container").css("width", "80%");
+            $(".snippet_container").css("left", "10%");
+
+            //Navigation arrows
+            $(".left_hover").on("mouseover", function() {
+                $(".left_button").css("display", "block");
+                $(".arrow_1").css("display", "block");
+            }).on("mouseleave", function() {
+                if ($(document).width() > 1264) {
+                    $(".left_button").css("display", "none");
+                    $(".arrow_1").css("display", "none");
+                }
+            });
+            $(".right_hover").on("mouseover", function() {
+                $(".right_button").css("display", "block");
+                $(".arrow_2").css("display", "block");
+            }).on("mouseleave", function() {
+                if ($(document).width() > 1264) {
+                    $(".right_button").css("display", "none");
+                    $(".arrow_2").css("display", "none");4
+                }
+            });
+            $(".left_hover").css("width", "10%");
+            $(".right_hover").css("width", "10%");
+            $(".left_button").css("width", "60px");
+            $(".left_button").css("height", "60px");
+            $(".left_button").css("left", "2.5%");
+            $(".right_button").css("width", "60px");
+            $(".right_button").css("height", "60px");
+            $(".right_button").css("right", "2.5%");
+            $(".left_button").css("display", "none");
+            $(".arrow_1").css("display", "none");
+            $(".right_button").css("display", "none");
+            $(".arrow_2").css("display", "none");
+            $(".left_button").on("mouseover", function() {
+                $(".left_button").css("display", "block");
+                $(".arrow_1").css("display", "block");
+                $(".arrow_1").css("border-bottom", "5px solid #D5D5D5");
+                $(".arrow_1").css("border-right", "5px solid #D5D5D5");
+            }).on("mouseleave", function() {
+                $(".arrow_1").css("border-bottom", "5px solid white");
+                $(".arrow_1").css("border-right", "5px solid white");
+            });
+            $(".right_button").on("mouseover", function() {
+                $(".right_button").css("display", "block");
+                $(".arrow_2").css("display", "block");
+                $(".arrow_2").css("border-bottom", "5px solid #D5D5D5");
+                $(".arrow_2").css("border-right", "5px solid #D5D5D5");
+            }).on("mouseleave", function() {
+                $(".arrow_2").css("border-bottom", "5px solid white");
+                $(".arrow_2").css("border-right", "5px solid white");
+            });
         } else {
+            //Navigation arrows
+            $(".left_button").css("display", "block");
+            $(".arrow_1").css("display", "block");
+            $(".right_button").css("display", "block");
+            $(".arrow_2").css("display", "block");
+            $(".left_hover").css("width", "5%");
+            $(".right_hover").css("width", "5%");
+            $(".left_button").css("width", "30px");
+            $(".left_button").css("height", "30px");
+            $(".left_button").css("left", "1.25%");
+            $(".right_button").css("width", "30px");
+            $(".right_button").css("height", "30px");
+            $(".right_button").css("right", "1.25%");
+            $(".left_button").on("mouseover", function() {
+                $(".arrow_1").css("border-bottom", "5px solid #D5D5D5");
+                $(".arrow_1").css("border-right", "5px solid #D5D5D5");
+            }).on("mouseleave", function() {
+                $(".arrow_1").css("border-bottom", "5px solid white");
+                $(".arrow_1").css("border-right", "5px solid white");
+            });
+            $(".right_button").on("mouseover", function() {
+                $(".arrow_2").css("border-bottom", "5px solid #D5D5D5");
+                $(".arrow_2").css("border-right", "5px solid #D5D5D5");
+            }).on("mouseleave", function() {
+                $(".arrow_2").css("border-bottom", "5px solid white");
+                $(".arrow_2").css("border-right", "5px solid white");
+            });
+            $(".snippet_container").css("width", "90%");
+            $(".snippet_container").css("left", "5%");
             $(".inner_main_menu").css("display", "none");
             $(".menu_container").css("display", "inline");
         }
@@ -81,10 +162,13 @@ $(document).ready(function () {
             resizeBig();
         }
     });
+    click();
+});
+
+function click(){
     $(".menu_container").click(function () {
         if ($(".bar1").css("transform") == "none"){
             $(".mob_main_menu").css({"display": "block"});
-            console.log("firing");
             $(".bar1").css({
                 "transform": "rotate(45deg)",
                 "margin-top": Math.max(20 + 0.025 * window.scrollY, 0) + "px",
@@ -105,4 +189,4 @@ $(document).ready(function () {
             clicked = false;
         }
     });
-});
+}
