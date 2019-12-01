@@ -66,7 +66,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Aquaculture_connections')).hide();
         svg.getElementsByClassName("st1")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/resources/water/aquaculture/aquaculture.html","_self")
+        window.open("/Blog/resources/water/aquaculture.html","_self")
     });
     //harbour
     $(svg.getElementsByClassName("st1")[1]).on("mouseover", function () {
@@ -77,7 +77,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Harbour_connections')).hide();
         svg.getElementsByClassName("st1")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/resources/water/aquaculture.html","_self")
     });
     $(svg.getElementsByClassName("st2")[0]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[0].style.setProperty("opacity", "100%");
@@ -97,7 +97,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Flora_connections')).hide();
         svg.getElementsByClassName("st2")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/resources/forest/forestry/overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[2].style.setProperty("opacity", "100%");
@@ -107,7 +107,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Fauna_connections')).hide();
         svg.getElementsByClassName("st2")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/resources/forest/forestry/overview.html","_self")
     });
     $(svg.getElementsByClassName("st2")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st2")[3].style.setProperty("opacity", "100%");
@@ -199,7 +199,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Vacational_housing')).hide();
         svg.getElementsByClassName("st5")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/drivers/housing/vacation.html","_self")
     });
     //long term
     $(svg.getElementsByClassName("st5")[1]).on("mouseover", function () {
@@ -236,7 +236,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('Temporary_housing_connections')).hide();
         svg.getElementsByClassName("st5")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/drivers/housing/overview.html","_self")
     });
     //road
     $(svg.getElementsByClassName("st6")[0]).on("mouseover", function () {
@@ -247,7 +247,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('road_connections')).hide();
         svg.getElementsByClassName("st6")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/drivers/transport/introduction/current.html","_self")
     });
     $(svg.getElementsByClassName("st6")[1]).on("mouseover", function () {
         svg.getElementsByClassName("st6")[1].style.setProperty("opacity", "100%");
@@ -257,7 +257,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('railway_connections')).hide();
         svg.getElementsByClassName("st6")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/transport/distances.html","_self")
+        window.open("/Blog/drivers/transport/railway/extension.html","_self")
     });
     $(svg.getElementsByClassName("st6")[2]).on("mouseover", function () {
         svg.getElementsByClassName("st6")[2].style.setProperty("opacity", "100%");
@@ -288,7 +288,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('culture_connections')).hide();
         svg.getElementsByClassName("st7")[0].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/drivers/tourism/culture.html","_self")
     });
     //recreation
     $(svg.getElementsByClassName("st7")[1]).on("mouseover", function () {
@@ -299,7 +299,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('recreation_connections')).hide();
         svg.getElementsByClassName("st7")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#","_self")
+        window.open("/Blog/drivers/tourism/destinations.html","_self")
     });
     //nature
     $(svg.getElementsByClassName("st7")[2]).on("mouseover", function () {
@@ -310,7 +310,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('nature_connections')).hide();
         svg.getElementsByClassName("st7")[2].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("#l","_self")
+        window.open("/Blog/drivers/tourism/overview.html","_self")
     });
     $(svg.getElementsByClassName("st0")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st0")[0].style.setProperty("opacity", "100%");

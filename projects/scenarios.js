@@ -7,29 +7,29 @@ window.addEventListener("load", function() {
     }).on("mouseleave", function () {
         svg.getElementsByClassName("cls-1")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
-        window.open("/Blog/projects/scenarios/marble_park.html", "_self")
+        window.open("/Blog/projects/scenarios/marble_park/overview.html", "_self")
     });
-    $(svg.getElementsByClassName("cls-28")[0]).on("mouseover", function () {
-        svg.getElementsByClassName("cls-28")[0].style.setProperty("opacity", "100%");
-        svg.getElementsByClassName("cls-28")[0].style.setProperty("cursor", "pointer");
+    $(svg.getElementsByClassName("cls-26")[0]).on("mouseover", function () {
+        svg.getElementsByClassName("cls-26")[0].style.setProperty("opacity", "100%");
+        svg.getElementsByClassName("cls-26")[0].style.setProperty("cursor", "pointer");
     }).on("mouseleave", function () {
-        svg.getElementsByClassName("cls-28")[0].style.setProperty("opacity", "80%");
+        svg.getElementsByClassName("cls-26")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
         window.open("/Blog/projects/scenarios/link/overview.html", "_self")
     });
-    $(svg.getElementsByClassName("cls-82")[0]).on("mouseover", function () {
-        svg.getElementsByClassName("cls-82")[0].style.setProperty("opacity", "100%");
-        svg.getElementsByClassName("cls-82")[0].style.setProperty("cursor", "pointer");
+    $(svg.getElementsByClassName("cls-80")[0]).on("mouseover", function () {
+        svg.getElementsByClassName("cls-80")[0].style.setProperty("opacity", "100%");
+        svg.getElementsByClassName("cls-80")[0].style.setProperty("cursor", "pointer");
     }).on("mouseleave", function () {
-        svg.getElementsByClassName("cls-82")[0].style.setProperty("opacity", "80%");
+        svg.getElementsByClassName("cls-80")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
-        window.open("/Blog/projects/scenarios/food_festival/locations.html", "_self")
+        window.open("/Blog/projects/scenarios/food_festival/overview.html", "_self")
     });
-    $(svg.getElementsByClassName("cls-142")[0]).on("mouseover", function () {
-        svg.getElementsByClassName("cls-142")[0].style.setProperty("opacity", "100%");
-        svg.getElementsByClassName("cls-142")[0].style.setProperty("cursor", "pointer");
+    $(svg.getElementsByClassName("cls-140")[0]).on("mouseover", function () {
+        svg.getElementsByClassName("cls-140")[0].style.setProperty("opacity", "100%");
+        svg.getElementsByClassName("cls-140")[0].style.setProperty("cursor", "pointer");
     }).on("mouseleave", function () {
-        svg.getElementsByClassName("cls-142")[0].style.setProperty("opacity", "80%");
+        svg.getElementsByClassName("cls-140")[0].style.setProperty("opacity", "80%");
     }).on("click", function () {
         window.open("/Blog/projects/scenarios/roots/roots_overview.html", "_self")
     });

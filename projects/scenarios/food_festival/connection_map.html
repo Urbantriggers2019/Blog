@@ -20,13 +20,7 @@
         <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
         <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
         <div class="snippet_container">
-            <h2>This page consists of:</h2>
-            <ul>
-                <li><a href="/Blog/projects/scenarios/roots/roots_overview.html">Overview</a></li>
-                <li><a href="/Blog/projects/scenarios/roots/roots_connection_map.html">Connection Map</a></li>
-                <li><a href="/Blog/projects/scenarios/roots/roots_potential.html">Potential</a></li>
-                <li><a href="/projects/scenarios/roots/kindergarden.html">Forest Party</a></li>
-            </ul>
+            <object style="padding:30px;" id="mastermap" class="map" type="image/svg+xml" data="/Blog/projects/scenarios/food_festival/img/2. Map Food Festival.svg"></object>
         </div>
         <div id="footer"></div>
     </div>
@@ -39,7 +33,7 @@
             });
         }
         function addNavBar() {
-            $.get("/Blog/projects/scenarios/scenarios_navbar.html", function(data){
+            $.get("/Blog/projects/scenarios/food_festival/food_festival_navbar.html", function(data){
                 $("#subnav-placeholder").replaceWith(data);
                 addFooter();
             });
@@ -58,7 +52,7 @@
         }
         function addSubActive() {
             $(document).ready(function () {
-                $(".subnavbar > ul > li:nth-child(5) ").addClass('active');
+                $(".subnavbar > ul > li:nth-child(3) ").addClass('active');
             });
         }
     </script>
