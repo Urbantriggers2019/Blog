@@ -8,4 +8,9 @@ window.addEventListener("load", function() {
     }).on("mouseover", function () {
         document.body.style.cursor = "pointer";
     });
+    $(svg.getElementsByClassName("st0")).on("mouseover", function() {
+        for (i = 0; i < svg.querySelectorAll('.st0').length; i++) {
+            svg.querySelectorAll('.st0')[i].style.setProperty("cursor", "pointer");
+        }
+    })
 });
