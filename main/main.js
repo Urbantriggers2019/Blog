@@ -19,19 +19,27 @@ $(document).ready(function () {
             $(".left_hover").on("mouseover", function() {
                 $(".left_button").css("display", "block");
                 $(".arrow_1").css("display", "block");
+                $(".left_button").css("background", "rgb(86, 86, 86)");
+                $(".left_button").css("border", "3px solid rgb(43, 43, 43)");
             }).on("mouseleave", function() {
                 if ($(document).width() > 1264) {
-                    $(".left_button").css("display", "none");
-                    $(".arrow_1").css("display", "none");
+                    $(".left_button").css("background", "none");
+                    $(".left_button").css("border", "none");
+                    $(".left_button").css("display", "block");
+                    $(".arrow_1").css("display", "block");
                 }
             });
             $(".right_hover").on("mouseover", function() {
                 $(".right_button").css("display", "block");
                 $(".arrow_2").css("display", "block");
+                $(".right_button").css("background", "rgb(86, 86, 86)");
+                $(".right_button").css("border", "3px solid rgb(43, 43, 43)");
             }).on("mouseleave", function() {
                 if ($(document).width() > 1264) {
-                    $(".right_button").css("display", "none");
-                    $(".arrow_2").css("display", "none");4
+                    $(".right_button").css("background", "none");
+                    $(".right_button").css("border", "none");
+                    $(".right_button").css("display", "block");
+                    $(".arrow_2").css("display", "block");4
                 }
             });
             $(".left_hover").css("width", "10%");
@@ -42,12 +50,24 @@ $(document).ready(function () {
             $(".right_button").css("width", "60px");
             $(".right_button").css("height", "60px");
             $(".right_button").css("right", "2.5%");
-            $(".left_button").css("display", "none");
-            $(".arrow_1").css("display", "none");
-            $(".right_button").css("display", "none");
-            $(".arrow_2").css("display", "none");
+            $(".left_button").css("display", "block");
+            $(".arrow_1").css("display", "block");
+            $(".right_button").css("display", "block");
+            $(".arrow_2").css("display", "block");
+            $(".left_button").css("background", "none");
+            $(".left_button").css("border", "none");
+            $(".right_button").css("background", "none");
+            $(".right_button").css("border", "none");
+            $(".arrow_1").css("border-bottom", "5px solid rgb(86, 86, 86)");
+            $(".arrow_1").css("border-right", "5px solid rgb(86, 86, 86)");
+            $(".arrow_2").css("border-bottom", "5px solid rgb(86, 86, 86)");
+            $(".arrow_2").css("border-right", "5px solid rgb(86, 86, 86)");
+            $(".arrow_1").css("border-right", "5px solid rgb(86, 86, 86)");
+            $(".arrow_2").css("border-bottom", "5px solid rgb(86, 86, 86)");
             $(".left_button").on("mouseover", function() {
                 if ($(document).width() > 1264) {
+                    $(".left_button").css("background", "rgb(86, 86, 86)");
+                    $(".left_button").css("border", "3px solid rgb(43, 43, 43)");
                     $(".left_button").css("display", "block");
                     $(".arrow_1").css("display", "block");
                     $(".arrow_1").css("border-bottom", "5px solid #D5D5D5");
@@ -55,6 +75,8 @@ $(document).ready(function () {
                 }
             }).on("mouseleave", function() {
                 if ($(document).width() > 1264) {
+                    $(".left_button").css("background", "none");
+                    $(".left_button").css("border", "none");
                     $(".arrow_1").css("border-bottom", "5px solid white");
                     $(".arrow_1").css("border-right", "5px solid white");
                 }
@@ -63,11 +85,15 @@ $(document).ready(function () {
                 if ($(document).width() > 1264) {
                     $(".right_button").css("display", "block");
                     $(".arrow_2").css("display", "block");
+                    $(".right_button").css("background", "rgb(86, 86, 86)");
+                    $(".right_button").css("border", "3px solid rgb(43, 43, 43)");
                     $(".arrow_2").css("border-bottom", "5px solid #D5D5D5");
                     $(".arrow_2").css("border-right", "5px solid #D5D5D5");
                 }
             }).on("mouseleave", function() {
                 if ($(document).width() > 1264) {
+                    $(".right_button").css("background", "none");
+                    $(".right_button").css("border", "none");
                     $(".arrow_2").css("border-bottom", "5px solid white");
                     $(".arrow_2").css("border-right", "5px solid white");
                 }
@@ -118,16 +144,17 @@ $(document).ready(function () {
                 $(".arrow_2").css("border-bottom", "2px solid white");
                 $(".arrow_2").css("border-right", "2px solid white");
             });
-            $(".snippet_container").css("width", "calc(100% - 120px)");
-            $(".snippet_container").css("left", "60px");
-            $(".inner_main_menu").css("display", "none");
-            $(".menu_container").css("display", "inline");
             $(".arrow_1").css("border-bottom", "2px solid white");
             $(".arrow_1").css("border-right", "2px solid white");
             $(".arrow_2").css("border-bottom", "2px solid white");
             $(".arrow_2").css("border-right", "2px solid white");
             $(".arrow_1").css("top", "8px");
             $(".arrow_2").css("top", "8px");
+
+            $(".snippet_container").css("width", "calc(100% - 120px)");
+            $(".snippet_container").css("left", "60px");
+            $(".inner_main_menu").css("display", "none");
+            $(".menu_container").css("display", "inline");
         }
     }
 
