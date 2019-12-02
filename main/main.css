@@ -142,6 +142,7 @@ body{
     height: 60px;
     background: rgb(86, 86, 86);
     border: 3px solid rgb(43, 43, 43);
+    z-index: 999;
 }
 .left_button{
     left: 2.5%;
