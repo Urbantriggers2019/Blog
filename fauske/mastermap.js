@@ -168,7 +168,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('High_school_connections')).hide();
         svg.getElementsByClassName("st4")[1].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/education/highschool.html","_self")
+        window.open("/Blog/drivers/education/highschool/overview.html","_self")
     });
     $(svg.getElementsByClassName("st4")[3]).on("mouseover", function () {
         svg.getElementsByClassName("st4")[3].style.setProperty("opacity", "100%");
@@ -178,7 +178,7 @@ window.addEventListener("load", function() {
         $(svg.getElementById('further_studies_connections')).hide();
         svg.getElementsByClassName("st4")[3].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/education/further_studies.html","_self")
+        window.open("/Blog/drivers/education/further_studies/further_studies_overview.html","_self")
     });
     $(svg.getElementsByClassName("st4")[4]).on("mouseover", function () {
         svg.getElementsByClassName("st4")[4].style.setProperty("opacity", "100%");
@@ -390,7 +390,7 @@ window.addEventListener("load", function() {
         svg.getElementsByClassName("st4")[3].style.setProperty("opacity", "80%");
         svg.getElementsByClassName("st4")[4].style.setProperty("opacity", "80%");
     }).on("click", function() {
-        window.open("/Blog/drivers/education/highschool/overview.html","_self")
+        window.open("/Blog/drivers/education/overview.html","_self")
     });
     $(svg.getElementsByClassName("st6")[4]).on("mouseover", function () {
         svg.getElementsByClassName("st6")[0].style.setProperty("opacity", "100%");

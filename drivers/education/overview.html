@@ -17,12 +17,15 @@
     <div class="left">
         <div class="left_hover"></div>
         <div class="right_hover"></div>
-        <a href="/Blog/fauske/economics.html"><div class="left_button"><div class="arrow_1"></div></div></a>
-        <a href="/Blog/fauske/fauske.html"><div class="right_button"><div class="arrow_2"></div></div></a>
+        <a href="/Blog/drivers/education.html"><div class="left_button"><div class="arrow_1"></div></div></a>
+        <a href="/Blog/drivers/education/1-10th.html"><div class="right_button"><div class="arrow_2"></div></div></a>
         <div class="snippet_container">
-            <h1>Fauske</h1>
-            <h3 style="padding-top:0; padding-bottom: 0; margin:0;">Around 6000 people live in this city that is located in Nordland county.</h3>
-            <h3 style="padding-top:0; padding-bottom: 0; margin:0;">There are many types of industries in Fauske that are described in detail on this site</h3>
+            <object id="land" class="map" type="image/svg+xml" data="/Blog/drivers/education/img/overview.svg"></object>
+        </div>
+        <div class="snippet_container">
+            <h2>Sources</h2>
+            <h3>Talk with 10th graders at Vestmyra skole</h3>
+            <h3>Talk with Gry-Janne Rugås at Finneid Sveiseverksted AS</h3>
         </div>
         <div id="footer"></div>
     </div>
@@ -35,7 +38,7 @@
             });
         }
         function addNavBar() {
-            $.get("/Blog/fauske/fauske_navbar.html", function(data){
+            $.get("/Blog/drivers/education/education_navbar.html", function(data){
                 $("#subnav-placeholder").replaceWith(data);
                 addFooter();
             });
@@ -48,13 +51,13 @@
         }
         function addMainActive() {
             $(document).ready(function () {
-                $(".inner_main_menu > ul > li:nth-child(1)").addClass('active');
+                $(".inner_main_menu > ul > li:nth-child(3)").addClass('active');
             });
             addSubActive()
         }
         function addSubActive() {
             $(document).ready(function () {
-                $(".subnavbar > ul > li:nth-child(1) ").addClass('active');
+                $(".subnavbar > ul > li:nth-child(2) ").addClass('active');
             });
         }
     </script>
