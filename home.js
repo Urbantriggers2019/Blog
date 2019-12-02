@@ -2,7 +2,7 @@ window.addEventListener("load", function() {
     var svgObject = document.getElementById('land').contentDocument;
     var svg = svgObject.getElementsByTagName('svg')[0];
     $(svg.getElementsByClassName('st0')[0]).on("click", function () {
-        window.location.replace("/Blog/fauske/wealth_of_fauske.html");
+        window.location.replace("/Blog/fauske/tasks.html");
     }).on("mouseover", function () {
         document.body.style.cursor = "pointer";
     });
