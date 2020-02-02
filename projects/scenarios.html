@@ -34,7 +34,7 @@
             });
         }
         function addNavBar() {
-            $.get("/Blog/projects/projects_navbar.html", function(data){
+            $.get("/Blog/projects/scenarios/scenarios_navbar.html", function(data){
                 $("#subnav-placeholder").replaceWith(data);
                 addFooter();
             });
@@ -53,7 +53,7 @@
         }
         function addSubActive() {
             $(document).ready(function () {
-                $(".subnavbar > ul > li:nth-child(3) ").addClass('active');
+                $(".subnavbar > ul > li:nth-child(1) ").addClass('active');
             });
         }
     </script>

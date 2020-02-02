@@ -15,7 +15,7 @@
     list-style: none;
 }
 .subnavbar ul li {
-    font-family:"Neue Haas Unica W06 Thin", Helvetica, sans-serif !important;
+    font-family:"Neue Haas Unica W06 Thin", Helvetica, sans-serif;
     font-size:24px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -24,4 +24,7 @@
     padding-bottom: 6px;
     display: table-cell;
     text-align: center;
+}
+.bold {
+    font-family: "Neue Haas Unica W06 Regular", Helvetica, sans-serif !important;
 }
