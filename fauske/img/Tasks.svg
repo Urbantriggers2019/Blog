@@ -1,133 +1,190 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1505 639" style="enable-background:new 0 0 1505 639;" xml:space="preserve">
-<style  type="text/css">
+<style type="text/css">
 	@font-face {font-family: "NeueHaasUnicaW06-ThinItalic";
 	src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.eot"); /* IE9*/
 	src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff2") format("woff2"), /* chrome?firefox */
-	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff") format("woff"), /* chrome?firefox */
-	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff2") format("woff2"), /* chrome、firefox */
+	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.woff") format("woff"), /* chrome、firefox */
+	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 	url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_0ed68d0a6f9c1234e2d43bdd27b951f2/@font-face/3842220656142ccef91508c98b0eb6ed.svg#Neue Haas Unica W06 Thin It") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-ExtraBlack";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_3dad734723cd1eada75c00f4d4322909/@font-face/46ff6b5a1511006aeadd4a46a3efd9ae.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Regular";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7a298e4d1b42d5d0485b479c3bcf69bf/@font-face/7250d52844cced73ed70675d1b78c60c.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-XBlackIt";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_7ded04d499cfd92c5afc12ffac484c5a/@font-face/5ef047f0e72e70adeba30f0c829c33e0.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-LightIt";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_19d2b951c44c457e1bc515a2e9e486fb/@font-face/7f69054324b2adbc60f29dfd260c3d30.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Italic";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_059c6c90764b5b58f635dc550a3dd784/@font-face/0aa6b2719638cacfa0e8abce9099a39b.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Bold";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_073d72f89a764f9fcbc574a8bd4cb553/@font-face/bb87c8dd3cc47b366f6bb7738fee180c.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Heavy";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_559d73454fad999c45ebbdaaa3ebacdd/@font-face/d04fc9492a6f504ee79cb87d63393fe0.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-HeavyIt";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_507355e12251f27746763ec4f975a633/@font-face/a9820d1a66a09f97371b7ec92a271a92.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Light";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_c59b16964f2eec693c72eb9c925ef088/@font-face/145bf6f8eebf1ad036f74d821af7d94b.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-MediumIt";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_d179b86ccc44b19f872ad2ce5d9141f0/@font-face/2a415f48f53c15b960c82ad93f0a2ee0.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Thin";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e0d1d8bcd90f325e7a7f4a8b9636d78a/@font-face/740a2bcf13582a2a0ed99e15dffe7b9f.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-BoldItalic";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e4e54e1eb6c480425902156a32fef7d6/@font-face/61742cae2dd974e3c9604f614a4c57f1.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-Medium";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_e009de3bc4003d481f48e90c6efd332f/@font-face/9c0afb6841117a1e2256b49b040cb768.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
 	@font-face {font-family: "NeueHaasUnicaW06-BlackIt";
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.eot"); /* IE9*/
 		src: url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.woff") format("woff2"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.woff2") format("woff"), /* chrome?firefox */
-		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.woff") format("woff2"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.woff2") format("woff"), /* chrome、firefox */
+		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 		url("/Blog/main/fonts/NeueHaasUnicaW06/OnlineWebFonts_COM_f0d250fc9c4208c6c78408a38db68150/@font-face/15e7a19454566924256299df2a72ab91.svg#Neue Haas Unica W06 X Black") format("svg"); /* iOS 4.1- */
 	}
+	.st0{fill:none;stroke:#333333;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:#A8A8A8;}
+	.st2{fill:#90C682;}
+	.st3{fill:#E94B53;}
+	.st4{fill:#BE8C53;}
+	.st5{fill:#1D1D1B;}
+	.st6{font-family:'NeueHaasUnicaW06-Regular';}
+	.st7{font-size:24px;}
+	.st8{font-size:32px;}
+	.st9{font-size:18px;}
+	.st10{fill:#9B8631;}
+	.st11{fill:#FFFFFF;}
+	.st12{fill:#8F998C;}
+	.st13{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#373A37;stroke-width:3;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#A2AA9F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st16{fill:none;}
+	.st17{font-family:'NeueHaasUnicaW06-Italic';}
 </style>
+<line class="st0" x1="1222.4" y1="179.7" x2="1183.4" y2="212.8"/>
+<line class="st0" x1="1147.3" y1="243.4" x2="1108.2" y2="276.4"/>
+<line class="st0" x1="1300.3" y1="485.2" x2="1234.4" y2="459.6"/>
+<line class="st0" x1="1198.4" y1="445.6" x2="1128.8" y2="418.5"/>
+<line class="st0" x1="874.5" y1="375" x2="817.7" y2="384.4"/>
+<line class="st0" x1="781.6" y1="390.3" x2="726.5" y2="399.3"/>
+<circle class="st1" cx="1003.9" cy="361.3" r="104.4"/>
+<circle class="st2" cx="1391.5" cy="528.4" r="75.3"/>
+<circle class="st3" cx="1291.7" cy="116.1" r="75.3"/>
+<circle class="st4" cx="626.7" cy="416.6" r="75.3"/>
 <title>Tasks</title>
 <title>Tasks</title>
-<rect x="92.271" y="381.185" style="fill:none;" width="1320.458" height="177.702"/>
-<text transform="matrix(1 0 0 1 104.2906 423.57)"><tspan x="0" y="0" style="fill:#1D1D1B; font-family:'NeueHaasUnicaW06-Regular'; font-size:59.53px;">Find projects that can develop Fauske as a city in </tspan><tspan x="32.412" y="71.436" style="fill:#1D1D1B; font-family:'NeueHaasUnicaW06-Regular'; font-size:59.53px;">terms of </tspan><tspan x="265.706" y="71.436" style="fill:#2B4C9A; font-family:'NeueHaasUnicaW06-Heavy'; font-size:59.53px;">infrastructure</tspan><tspan x="666.692" y="71.436" style="fill:#1D1D1B; font-family:'NeueHaasUnicaW06-Regular'; font-size:59.53px;">, </tspan><tspan x="693.838" y="71.436" style="fill:#2B4C9A; font-family:'NeueHaasUnicaW06-Heavy'; font-size:59.53px;">culture</tspan><tspan x="899.57" y="71.436" style="fill:#1D1D1B; font-family:'NeueHaasUnicaW06-Regular'; font-size:59.53px;"> and </tspan><tspan x="1027.141" y="71.436" style="fill:#2B4C9A; font-family:'NeueHaasUnicaW06-Heavy'; font-size:59.53px;">industry</tspan></text>
-<rect x="92.271" y="42.52" style="fill:none;" width="1320.458" height="177.702"/>
-<text transform="matrix(1 0 0 1 631.0905 84.9044)" style="fill:#1D1D1B; font-family:'NeueHaasUnicaW06-Regular'; font-size:59.53px;">The Task</text>
+<text transform="matrix(1 0 0 1 551.4309 84.9044)" class="st5 st6 st7">The Task</text>
+<text transform="matrix(1.1789 0 0 1 791.0146 397.6631)" class="st5 st6 st8">?</text>
+<text transform="matrix(1.1789 0 0 1 1207.7427 461.3817)" class="st5 st6 st8">?</text>
+<text transform="matrix(1.1789 0 0 1 1156.6951 236.9037)" class="st5 st6 st8">?</text>
+<text transform="matrix(1 0 0 1 1338.0251 536.4316)" class="st5 st6 st9">Infrastructure</text>
+<text transform="matrix(1 0 0 1 1259.9951 125.7479)" class="st5 st6 st9">Culture</text>
+<text transform="matrix(1 0 0 1 592.6868 421.1399)" class="st5 st6 st9">Industry</text>
+<text transform="matrix(1 0 0 1 963.5161 370.3416)" class="st5 st6 st7">Fauske</text>
+<path class="st10" d="M374.6,590.8H150.9c-14.7,0-26.6-11.9-26.6-26.6V179.8c0-14.7,11.9-26.6,26.6-26.6h223.7
+	c14.7,0,26.6,11.9,26.6,26.6v384.4C401.2,578.9,389.3,590.8,374.6,590.8z"/>
+<rect x="153.4" y="174.3" class="st11" width="218.8" height="388.9"/>
+<path class="st12" d="M285.7,141.2c0.1-0.7,0.1-1.4,0.1-2.1c0-12.7-10.3-23.1-23.1-23.1s-23.1,10.3-23.1,23.1c0,0.7,0,1.4,0.1,2.1
+	c-31.5,5.8-54.4,23.4-54.4,44.1h154.8C340.2,164.6,317.3,147.1,285.7,141.2z M262.8,149.3c-7.5,0-13.5-6-13.5-13.5
+	c0-7.5,6-13.5,13.5-13.5c7.4,0,13.5,6,13.5,13.5C276.3,143.3,270.2,149.3,262.8,149.3z"/>
+<rect x="185.4" y="234.4" class="st13" width="42" height="42"/>
+<rect x="185.4" y="309.9" class="st13" width="42" height="42"/>
+<rect x="185.4" y="385.4" class="st13" width="42" height="42"/>
+<rect x="185.4" y="461" class="st13" width="42" height="42"/>
+<path class="st14" d="M250.9,235.1c-16.4,3.2-33.5,14.4-44.5,32.2c-2.6-7.3-6.8-13.9-12.8-19.6"/>
+<line class="st15" x1="259.8" y1="243.3" x2="334.6" y2="243.3"/>
+<line class="st15" x1="259.8" y1="255.4" x2="344.6" y2="255.4"/>
+<line class="st15" x1="259.8" y1="267.4" x2="328.3" y2="267.4"/>
+<line class="st15" x1="259.8" y1="318.9" x2="344.6" y2="318.9"/>
+<line class="st15" x1="259.8" y1="331" x2="334.1" y2="331"/>
+<line class="st15" x1="259.8" y1="343" x2="319.6" y2="343"/>
+<line class="st15" x1="259.8" y1="394.4" x2="344.9" y2="394.4"/>
+<line class="st15" x1="259.8" y1="406.5" x2="344.4" y2="406.5"/>
+<line class="st15" x1="259.8" y1="418.5" x2="328.3" y2="418.5"/>
+<line class="st15" x1="259.8" y1="470.1" x2="321.6" y2="470.1"/>
+<line class="st15" x1="259.8" y1="482.2" x2="336.9" y2="482.2"/>
+<line class="st15" x1="259.8" y1="494.1" x2="347.4" y2="494.1"/>
+<rect x="551.4" y="158.8" class="st16" width="394.2" height="151.2"/>
+<text transform="matrix(1 0 0 1 551.431 171.6325)"><tspan x="0" y="0" class="st17 st9">“Find projects that can develop Fauske as a city </tspan><tspan x="0" y="21.6" class="st17 st9">  in terms of infrastructure, culture and industry”</tspan></text>
 </svg>
